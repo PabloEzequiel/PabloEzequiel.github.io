@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Chess y GitHub"
 date:   2016-06-15 10:08:44 -0300
 categories: Chess GitHub Stockfish Android
@@ -66,9 +66,6 @@ Por ahora suspendo aqui el post....
 
 <div id="disqus_thread"></div>
 <script>
-
-var disqus_developer = 1;               // Comment out when the site is live
-
 
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
