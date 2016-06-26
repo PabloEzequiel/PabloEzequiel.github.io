@@ -19,3 +19,7 @@ github_username:  PabloEzequiel
 
 # Build settings
 markdown: kramdown
+
+#Disquis
+#https://help.disqus.com/customer/en/portal/articles/472138-jekyll-installation-instructions
+#comments: true
