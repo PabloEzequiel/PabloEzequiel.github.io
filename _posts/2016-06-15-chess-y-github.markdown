@@ -77,7 +77,7 @@ var disqus_developer = 1;               // Comment out when the site is live
 
     var disqus_config = function () {
         this.page.url = pabloezequiel.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PabloEze";          // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = "PabloEze";          // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 
 
