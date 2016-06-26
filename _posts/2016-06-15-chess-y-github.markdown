@@ -2,10 +2,10 @@
 layout: post
 comments: true
 title:  "Chess y GitHub"
-date:   2016-06-26 10:08:44 -0300
+date:   2016-06-15 10:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
-Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de GitHub][DroidFish-GitHub].
+Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de GitHub][DroidFish-GitHub]{:target="DroidFish"}.
 
 ## Comencemos
 
@@ -53,7 +53,7 @@ https://github.com/mqprichard/stockfishchess-android
 [DroidFish-GitHub]: https://github.com/peterosterlund2/droidfish
 
 
-##Pausa
+## Pausa
 
 Todavía me faltan conocimientos para solucionar este problema
 que seguramente está asociado a la conversión de proyectos
@@ -61,10 +61,15 @@ de Eclipse a Android Studio ...
 
 Por ahora suspendo aqui el post....
 
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
 <script>
+
+var disqus_developer = 1;               // Comment out when the site is live
+
+
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
@@ -72,9 +77,10 @@ Por ahora suspendo aqui el post....
     /*
     var disqus_config = function () {
         this.page.url = https://pabloezequiel.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = PabloEze";          // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     */
+
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
 
