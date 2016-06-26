@@ -53,6 +53,14 @@ https://github.com/mqprichard/stockfishchess-android
 [DroidFish-GitHub]: https://github.com/peterosterlund2/droidfish
 
 
+##Pausa
+
+Todavía me faltan conocimientos para solucionar este problema
+que seguramente está asociado a la conversión de proyectos
+de Eclipse a Android Studio ...
+
+Por ahora suspendo aqui el post....
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
