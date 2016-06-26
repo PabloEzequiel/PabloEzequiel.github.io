@@ -74,12 +74,12 @@ var disqus_developer = 1;               // Comment out when the site is live
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
-    /*
+
     var disqus_config = function () {
-        this.page.url = https://pabloezequiel.github.io;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.url = pabloezequiel.github.io;  // Replace PAGE_URL with your page's canonical URL variable
         this.page.identifier = PabloEze";          // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
-    */
+
 
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
