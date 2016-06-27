@@ -2,11 +2,11 @@
 layout: post
 comments: false
 title:  "GitHub: DroidFish de peterosterlund2"
-description: "ñkv.ka"
-date:   2016-06-15 19:08:44 -0300
+date:   2016-06-10 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
-Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de GitHub][DroidFish-GitHub]{:target="DroidFish"}.
+Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de peterosterlund2][github-chess-001-droidfish]{:target="chess001"}
+
 
 ## Comencemos
 
@@ -61,11 +61,15 @@ Relacionado a:
 http://web.comhem.se/petero2home/javachess/index.html
 http://web.comhem.se/petero2home/droidfish/index.html
 
-Otra distribución
-https://github.com/mqprichard/stockfishchess-android
 
-[DroidFish-GitHub]:               https://github.com/peterosterlund2/droidfish
-[stockfishchess-android-GitHub]:  https://github.com/mqprichard/stockfishchess-android
+
+
+
+[github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
+[github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
+[github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
+[github-chess-004-stockfishchess-android]:   https://github.com/mqprichard/stockfishchess-android
+
 
 
 ## Pausa
