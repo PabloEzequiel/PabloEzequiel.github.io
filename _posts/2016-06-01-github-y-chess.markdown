@@ -15,10 +15,30 @@ Entre los primeros a probar, estan los repositorios:
 * [Stockfishchess android de mqprichard]    [github-chess-004-stockfishchess-android]{:target="chess004"}
 
 
+## Links de Ajedrez
+
+Buen link
+* http://analysis.cpuchess.com/
+
+Otro Engine
+* https://github.com/AaronBecker/daydreamer
+
+
+
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
 [github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
 [github-chess-004-stockfishchess-android]:   https://github.com/mqprichard/stockfishchess-android
+
+
+
+<!--
+NOTA:
+Estoy en android
+elitecoder/droidfishchess_android
+
+-->
+
 
 <!--
 

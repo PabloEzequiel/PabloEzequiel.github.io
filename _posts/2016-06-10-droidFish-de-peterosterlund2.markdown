@@ -38,18 +38,6 @@ Después de la adaptación de Eclipse ADT a Android Studio, es necesario bajar e
 ![importacion paso2 screenshot](/assets/post_001_droidfish00002.png)
 
 
-<br />
-<div style="text-align: center;">
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- probarnocuestanada_468x60_creado_20150520 -->
-<br />
-<ins class="adsbygoogle" data-ad-client="ca-pub-4671718819110940" data-ad-slot="5798260795" style="display: inline-block; height: 60px; width: 468px;"></ins><script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-<br />
-
-
 Y ahora tenemos el siguiente problema de compilación/dependencia:
 Error:(40, 23) Lzma86Enc.h: No such file or directory
 
