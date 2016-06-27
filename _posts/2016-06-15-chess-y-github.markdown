@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "Chess y GitHub"
-date:   2016-06-15 10:08:44 -0300
+title:  "GitHub: DroidFish de peterosterlund2"
+description: "ñkv.ka"
+date:   2016-06-15 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de GitHub][DroidFish-GitHub]{:target="DroidFish"}.
@@ -36,6 +37,19 @@ Después de la adaptación de Eclipse ADT a Android Studio, es necesario bajar e
 
 ![importacion paso2 screenshot](/assets/post_001_droidfish00002.png)
 
+
+<br />
+<div style="text-align: center;">
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- probarnocuestanada_468x60_creado_20150520 -->
+<br />
+<ins class="adsbygoogle" data-ad-client="ca-pub-4671718819110940" data-ad-slot="5798260795" style="display: inline-block; height: 60px; width: 468px;"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br />
+
+
 Y ahora tenemos el siguiente problema de compilación/dependencia:
 Error:(40, 23) Lzma86Enc.h: No such file or directory
 
@@ -50,7 +64,8 @@ http://web.comhem.se/petero2home/droidfish/index.html
 Otra distribución
 https://github.com/mqprichard/stockfishchess-android
 
-[DroidFish-GitHub]: https://github.com/peterosterlund2/droidfish
+[DroidFish-GitHub]:               https://github.com/peterosterlund2/droidfish
+[stockfishchess-android-GitHub]:  https://github.com/mqprichard/stockfishchess-android
 
 
 ## Pausa

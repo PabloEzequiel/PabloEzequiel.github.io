@@ -22,6 +22,7 @@ Pruebas sobre iOS:
 [iosen.blogspot.com][iosen.blogspot.com]{:target="iosen"}
 
 
+{% include google-adsense.html %}
 
 [ProbarNoCuestaNada.com]: http://www.probarnocuestanada.com
 [javaen.blogspot.com]:    http://javaen.blogspot.com
