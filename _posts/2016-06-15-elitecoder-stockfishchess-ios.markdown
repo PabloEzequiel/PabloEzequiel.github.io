@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: false
-title:  "GitHub: Droidfishchess android de elitecoder"
-date:   2016-06-15 19:08:44 -0300
+title:  "GitHub: Stockfish chess ios de elitecoder"
+date:   2016-06-20 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
-Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Droidfishchess android de elitecoder][github-chess-002-droidfishchess_android]{:target="chess002"}.
+Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Stockfishchess ios de elitecoder][github-chess-003-stockfishchess-ios]{:target="chess003"}
 
 
 ## Comencemos
@@ -13,13 +13,10 @@ Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Droidfishche
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/stockfishchess-ios
 </pre>
 
 Author: **elitecoder**
-
-
-
 
 
 
