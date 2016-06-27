@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "GitHub y Stockfish Chess"
-date:   2016-06-20 19:08:44 -0300
+date:   2016-01-10 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
 Vamos a hacer algunos comentarios sobre **Stockfish** en GitHub. Tomemos un ejemplo:

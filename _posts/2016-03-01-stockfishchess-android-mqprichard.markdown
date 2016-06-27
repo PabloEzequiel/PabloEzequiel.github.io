@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "GitHub: Stockfishchess android de mqprichard"
-date:   2016-06-20 19:08:44 -0300
+date:   2016-03-01 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Stockfishchess android de mqprichard][github-chess-004-stockfishchess-android]{:target="chess004"}

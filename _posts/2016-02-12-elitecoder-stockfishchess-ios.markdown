@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "GitHub: Stockfish chess ios de elitecoder"
-date:   2016-06-15 19:08:44 -0300
+date:   2016-02-12 19:08:44 -0300
 categories: Chess GitHub Stockfish ios
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Stockfishchess ios de elitecoder][github-chess-003-stockfishchess-ios]{:target="chess003"}

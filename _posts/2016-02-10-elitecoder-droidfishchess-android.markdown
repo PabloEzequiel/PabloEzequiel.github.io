@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: false
-title:  "GitHub: Droidfish chess android de elitecoder"
-date:   2016-06-15 19:08:44 -0300
+title:  "GitHub: DroidFish chess android de elitecoder"
+date:   2016-02-10 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Droidfishchess android de elitecoder][github-chess-002-droidfishchess_android]{:target="chess002"}.

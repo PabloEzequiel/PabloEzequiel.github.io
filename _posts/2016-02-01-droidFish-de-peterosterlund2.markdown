@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title:  "GitHub: DroidFish de peterosterlund2"
-date:   2016-06-10 19:08:44 -0300
+date:   2016-02-01 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de peterosterlund2][github-chess-001-droidfish]{:target="chess001"}
