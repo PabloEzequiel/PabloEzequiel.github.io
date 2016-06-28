@@ -6,10 +6,10 @@ permalink: /about/
 
 ### Pablo Ezequiel en GitHub
 
-Voy a escribir algunos post sobre las pruebas, éxitos y fracasos al intentar
+La idea de esta página es escribir algunos post sobre las pruebas, éxitos y fracasos al intentar
 compilar algunos de los proyectos de GitHub que me interesen.
 
- 
+
 
 ## Llinks
 
