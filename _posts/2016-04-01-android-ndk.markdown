@@ -5,7 +5,7 @@ title:  "GitHub: Android NDK de googlesamples"
 date:   2016-04-01 19:08:44 -0300
 categories: GitHub NDK Android googlesamples
 ---
-Vamos a realizar algunas pruebas sobre [Android NDK][github-android-ndk]:{:target="ndk"}
+Vamos a realizar algunas pruebas sobre [Android NDK][github-android-ndk]{:target="ndk"}
 
 ## Comencemos
 
