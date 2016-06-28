@@ -28,6 +28,9 @@ Vamos a comenzar compilando el primer proyecto hello-jni
 
 Seguimos las indicaciones de https://github.com/googlesamples/android-ndk/tree/master/hello-jni
 
+Además, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico:
+[Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
+
 ![importacion paso2 screenshot](/assets/post_005_img2.png)
 
 Launch Android Studio.
@@ -51,7 +54,7 @@ Observemos la clase Java
 
 ![importacion paso2 screenshot](/assets/post_005_img5.png)
 
-El objeto c
+El objeto hello-jni.c
 
 ![importacion paso2 screenshot](/assets/post_005_img6.png)
 
@@ -59,8 +62,105 @@ Y ademas el script de graddle experimental:
 
 ![importacion paso2 screenshot](/assets/post_005_img7.png)
 
+Vemos que el texto "Hello JNI" es tomado desde la funcion nativa:
+
+![importacion paso2 screenshot](/assets/post_005_img8.png)
+
+## Proyecto 01: hello-jni - Agregamos nuestro código
+
+Como mensionábamos previamente, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico: [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
+
+Sobre el **codelab** me parecieron excelentes los puntos 4 y 5 que indican como agregar una función nativa y ademas hacer el debug. Vamos a tratar de hacer essos pasos:
+
+Una función que simplemente diga "Hello Pablo Ezequiel" en el activity:
+
+Primero modificamos el onCreate del Activity para poder ingresar dos textos.
+
+Utilizamos un LinearLayout por código (no XML), para editar menos componentes:
+
+{% highlight java %}
+
+@Override
+public void onCreate(Bundle savedInstanceState)
+{
+    super.onCreate(savedInstanceState);
+
+    /* Create a TextView and set its content.
+     * the text is retrieved by calling a native function.
+     */
+    TextView  tv = new TextView(this);
+    tv.setText( stringFromJNI() );
+
+    TextView  tv2 = new TextView(this);
+    tv2.setText( sayHelloFromJNI("Pablo Ezequiel") );    // NEW!
+
+
+    // Diseño principal de la actividad
+    LinearLayout principal = new LinearLayout(this);
+    principal.setLayoutParams(new ViewGroup.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.MATCH_PARENT));
+    principal.setOrientation(LinearLayout.VERTICAL);
+    principal.addView(tv);
+    principal.addView(tv2);
+
+    setContentView(principal);
+
+}
+
+{% endhighlight %}
+
+Luego agregamos en la misma Activity, la nueva función nativa **sayHelloFromJNI**:
+
+{% highlight java %}
+
+    public native String  sayHelloFromJNI(String name);
+
+{% endhighlight %}
+
+Para la cual el compilador nos data la posibilidad de corregirlo:
+
+![importacion paso2 screenshot](/assets/post_005_img9.png)
+
+Con el asistente del Android Studio podemos implementar el método:
+
+Codigo C native, mayormente generado por el Android Studio:
+
+{% highlight java %}
+
+JNIEXPORT jstring JNICALL
+Java_com_example_hellojni_HelloJni_sayHelloFromJNI(JNIEnv *env, jobject instance, jstring name_) {
+    const char *name = (*env)->GetStringUTFChars(env, name_, 0);
+
+    // TODO
+
+    char buf_rta[256];
+    snprintf(buf_rta, sizeof buf_rta, "Hello %s", name);
+
+
+    (*env)->ReleaseStringUTFChars(env, name_, name);
+
+    return (*env)->NewStringUTF(env, buf_rta);
+}
+
+{% endhighlight %}
+
+Veamos el IDE:
+
+![importacion paso2 screenshot](/assets/post_005_img10.png)
+
+Y el resultado de la ejecución:
+
+![importacion paso2 screenshot](/assets/post_005_img11.png)
+
+
+
+Con esto damos por cerrado el post y las prubas sobre el **Proyecto 01 hello-jni**
 
 
 
 
-[github-android-ndk]:                https://github.com/googlesamples/android-ndk
+
+
+[github-android-ndk]:    https://github.com/googlesamples/android-ndk
+[google-codelab-link1]:  https://codelabs.developers.google.com/codelabs/android-studio-jni/index.html
