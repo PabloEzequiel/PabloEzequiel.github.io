@@ -69,6 +69,12 @@ de Eclipse a Android Studio ...
 Por ahora suspendo aqui el post....
 
 
+
+## TODO:
+
+Leer el [GitHub: CuckooChess de peterosterlund2]({% post_url 2016-02-02-CuckooChess-de-peterosterlund2 %})
+En donde pude compilar y ejectuar este proyecto de GitHub y detallo todos los pasos
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>

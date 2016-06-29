@@ -87,7 +87,154 @@ R cannot be resolved to a variable
 	ColorTheme.java
 	/DroidFish/src/org/petero/droidfish	line 72	Java Problem
 
+Igualmente fué un falso postivo, porque después de hacer restart en el eclipse, los errores desaparecieron.
 
+No solamente desaparecieron los errores, sino que por fin pude lograr el objetivo de levantar la aplicación Android en el Emulador:
+
+Tal como se ve a continuación, en donde estoy jugando con blancas una apertura de Peón Dama, a los cual las negras (el CuckooChess) responden con la **defensa Tarrash**
+
+![CuckooChess paso4 screenshot](/assets/post_002_img10.png)
+
+## Prueba 03: ¿Que sigue? Vamos por el DroidFish
+
+Ok, logramos compilar el proyecto CuckooChess en Android. Pero ¿Que pasa si intentamos ejecutar la aplicaicón Androd DroidFish en el Emulador?
+
+Nos da el siguiente error porque falta resolver o compilar algo del código nativo:
+
+![CuckooChess paso4 screenshot](/assets/post_002_img11.png)
+
+La excepcion es la siguiente: **couldn't find "libnativeutil.so"**
+
+{% highlight bash %}
+
+06-28 20:42:26.396: I/art(3290):
+Background partial concurrent mark sweep GC freed 3798(115KB)
+AllocSpace objects, 0(0B) LOS objects, 50% free, 1021KB/2045KB, paused 3.388ms total 121.688ms
+06-28 20:42:26.545: D/AndroidRuntime(3290): Shutting down VM
+06-28 20:42:26.566: E/AndroidRuntime(3290): FATAL EXCEPTION: main
+06-28 20:42:26.566: E/AndroidRuntime(3290): Process: org.petero.droidfish, PID: 3290
+06-28 20:42:26.566: E/AndroidRuntime(3290):
+
+java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader
+[DexPathList[[zip file "/data/app/org.petero.droidfish-1/base.apk"],
+nativeLibraryDirectories=[/vendor/lib, /system/lib]]] couldn't find "libnativeutil.so"
+
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at java.lang.Runtime.loadLibrary(Runtime.java:366)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at java.lang.System.loadLibrary(System.java:988)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at org.petero.droidfish.engine.EngineUtil.<clinit>(EngineUtil.java:33)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at org.petero.droidfish.DroidFish.setEngineTitle(DroidFish.java:1348)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at org.petero.droidfish.DroidFish.setEngineStrength(DroidFish.java:1343)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at org.petero.droidfish.DroidFish.readPrefs(DroidFish.java:1146)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at org.petero.droidfish.DroidFish.onCreate(DroidFish.java:449)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.Activity.performCreate(Activity.java:5990)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.os.Looper.loop(Looper.java:135)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at java.lang.reflect.Method.invoke(Native Method)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at java.lang.reflect.Method.invoke(Method.java:372)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+06-28 20:42:26.566: E/AndroidRuntime(3290): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+
+{% endhighlight %}
+
+Veamos los componentes que faltan compilar, utilizando al ndk:
+
+![CuckooChess paso4 screenshot](/assets/post_002_img12.png)
+
+Tenemos que verificar si en el **eclipse Mars** que estamos utilizando, con el plugin de **Android Developer Tool (ADT)** tenemos también el NDK instalado
+
+- <a href="http://tools.android.com/recent/usingthendkplugin" target="new">http://tools.android.com/recent/usingthendkplugin</a>
+
+Observamos que
+
+Window -> Preferences -> Android -> NDK
+
+Estaba vacío:
+
+![CuckooChess paso4 screenshot](/assets/post_002_img13.png)
+
+Y en mi PC, al NDK, gracias al uso del Android Studio, ya lo tenía instalado.
+Con lo cual agrego esa ruta al eclips:
+
+/Users/pabloin/Library/Android/sdk/ndk-bundle
+
+... pero no se como ejectuarlo al NDK (para compilar al codigo nativo JNI) desde el eclipse y me parece mas facil desde la linea de comando. Con lo cual, pasamos al próximo paso:
+
+## Compilando codigo nativo con NDK y jni
+
+Para los que necesiten (como yo) repasar NDK y JNI, copio los siguientes links basicos sobre el tema:
+
+-  <a  href="https://developer.android.com/ndk/samples/sample_hellojni.html" target="new">https://developer.android.com/ndk/samples/sample_hellojni.html</a>
+
+-  <a  href="https://developer.android.com/ndk/guides/android_mk.html" target="new">https://developer.android.com/ndk/guides/android_mk.html</a>
+
+-  <a  href="https://developer.android.com/ndk/guides/application_mk.html" target="new">https://developer.android.com/ndk/guides/application_mk.html</a>
+
+-  <a  href="https://github.com/googlesamples/android-ndk/tree/android-mk" target="new">https://github.com/googlesamples/android-ndk/tree/android-mk</a>
+
+Leyendo esos tutoriales, dice que el NDK se ejecuta en el directorio del proyecto:
+O sea:
+
+
+{% highlight bash %}
+
+cd <project>
+$ <ndk>/ndk-build
+
+Que en mi caso es:
+
+$ cd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/peterosterlund2/DroidFish
+$ ndk-build
+
+{% endhighlight %}
+
+Cuando lo ejecuto, obtengo el resultado:
+
+make: /Users/pabloin/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.8/prebuilt/darwin-x86_64/bin/aarch64-lin
+ux-android-gcc: No such file or directory
+
+En mi caso, es porque tengo toolchains **aarch64-linux-android-4.9** (en vez de 4.8)
+
+O sea, para que pueda compilar, tengo que cambiar el 4.8 por 4.9 en el Android.mk:
+
+Tuve que cambiar la version en:
+Android.mk
+NDK_TOOLCHAIN_VERSION := 4.9
+a
+NDK_TOOLCHAIN_VERSION := 4.9
+
+
+Y luego de ejecutar el
+
+{% highlight bash %}
+$ ndk-buid
+
+...
+[mips] Compile++      : stockfish-nopie <= tt.cpp
+[mips] Compile++      : stockfish-nopie <= tbprobe.cpp
+[mips] Executable     : stockfish-nopie
+[mips] Install        : stockfish-nopie => libs/mips/stockfish-nopie
+
+{% endhighlight %}
+
+Vamos a ejecutar al proyecto DroidFish como Android application:
+
+![CuckooChess paso4 screenshot](/assets/post_002_img14a.png)
+
+Se ejecuto exitosamente, vemos los proyectos del eclipse de fondo, y el emulador con el DroidFish de Frente
+
+![CuckooChess paso4 screenshot](/assets/post_002_img14.png)
+
+Y hacemos algunas jugadas con el droidfish corriendo en el emulador
+
+![CuckooChess paso4 screenshot](/assets/post_002_img15.png)
+
+En este punto podemos dar por cerrado el post, con el objetivo cumplido de compilar los proyectos de GitHub de DroidFish y CuckooChess, resolviendo la compilación de código nativo JNI con NDK en el medio.
 
 
 
