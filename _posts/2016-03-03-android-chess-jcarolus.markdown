@@ -5,7 +5,7 @@ title:  "GitHub: Android Chess de jcarolus"
 date:   2016-03-03 19:08:44 -0300
 categories: Chess GitHub Stockfish Android
 ---
-Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Android Chess][github-chess-005-android-chess]:{:target="chess005"}
+Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Android Chess][github-chess-005-android-chess]{:target="chess005"}
 
 
 ## Comencemos
@@ -18,10 +18,18 @@ Directorio de trabajo:
 
 Author: **jcarolus**
 
-
 Este proyecto lo pude compilar OK, Tiene tambien preubas de Chess sobre Android TV
 
+## Comencemos
 
+Lo pude compilar y jugar una partida:
+
+![importacion paso1 screenshot](/assets/post_006_img1.png)
+
+
+¿Que tiene el proyecto de interesante o para rescatar?
+
+- Utiliza JNI
 
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
