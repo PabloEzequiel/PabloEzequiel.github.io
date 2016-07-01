@@ -44,6 +44,8 @@ Y pudimos abrir el AppletGUI y jugar contra CuckooChess aunque nos colgamos un p
 
 El primer test anduvo ok
 
+{% include google-adsense.html %}
+
 ## Prueba 02: Compiladon el DroidFish.apk con Eclipse Android Developer Tool (ADT)
 
 Veamos que desde el eclipse, el DroidFish tiene problemas de compilación:
@@ -164,6 +166,10 @@ Con lo cual agrego esa ruta al eclips:
 /Users/pabloin/Library/Android/sdk/ndk-bundle
 
 ... pero no se como ejectuarlo al NDK (para compilar al codigo nativo JNI) desde el eclipse y me parece mas facil desde la linea de comando. Con lo cual, pasamos al próximo paso:
+
+{% include google-adsense.html %}
+
+
 
 ## Compilando codigo nativo con NDK y jni
 
