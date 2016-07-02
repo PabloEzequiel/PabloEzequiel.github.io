@@ -296,7 +296,7 @@ Que abre el Safari para solicitar permisos
 
 ![Firebase screenshot](/assets/post_009_img11.png)
 
-Luego mdice que el login es exitoso
+Luego me dice que el login es exitoso
 
 ![Firebase screenshot](/assets/post_009_img12.png)
 
@@ -358,7 +358,9 @@ Pero ***¿Donde está el chat del CodeLab?***
 ![Firebase screenshot](/assets/post_009_img21.png)
 
 
+.... Ok... por ahora suspendemos el post en este punto, esperando tener mejor suerte con los pasos siguientes cuando retomemos....
 
+ 
 
 
 
