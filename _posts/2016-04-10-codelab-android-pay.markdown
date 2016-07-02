@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: false
-title:  "Android Pay CodeLab de googlesamples"
-date:   2016-05-01 19:08:44 -0300
+title:  "CodeLab: Android Pay de googlesamples"
+date:   2016-04-10 19:08:44 -0300
 categories: Android Pay CodeLab googlesamples
 ---
 Vamos a hacer algunas pruebas sobre el [Android Pay][google-android-pay-link1]{:target="apy1"} y para hacer las pruebas, vamos a recorrer al [CodeLab de Google de Androy Pay][google-android-pay-codelab]{:target="pay1"}
@@ -62,7 +62,6 @@ Si bien, fué positivo poder avanzar con la aplicación **codelab** que nos da G
 {% include google-adsense.html %} <br/>
 
 Por ahora, interrumpimos el post en este punto, y vamos a avanzar leyendo un poco mas la docuentación oficial antes de retomar.
-
 
 
 # Next Step

@@ -1,8 +1,8 @@
 ---
 layout: post
 comments: false
-title:  "Android VR CodeLab de googlesamples"
-date:   2016-05-15 19:08:44 -0300
+title:  "CodeLab: Android VR de googlesamples"
+date:   2016-04-20 19:08:44 -0300
 categories: Android CodeLab googlesamplesr
 ---
 Veamos que sucede si intentamos seguir algún ejercicio sobre realidad virtual (VR) sobre Android.
@@ -165,11 +165,14 @@ Y también un dispositivo fisico...
 
 Como yo estoy utilizando el emulador, voy a suspender por ahora el este punto el post, en vista de que no es posible avanzar mucho mas.
 
-
-
-
 https://codelabs.developers.google.com/codelabs/vr_view_app_101/index.html#4
+
+
+## Next Steps
+
+Ver el siguiente converor de Google Api para realidad virtual [google-api-vr-link][https://storage.googleapis.com/cardboard-camera-converter/index.html]{: target="new"}
 
 
 
 [google-android-vr-codelab]:  https://codelabs.developers.google.com/codelabs/vr_view_app_101/index.html
+[google-api-vr-link]:          https://storage.googleapis.com/cardboard-camera-converter/index.html

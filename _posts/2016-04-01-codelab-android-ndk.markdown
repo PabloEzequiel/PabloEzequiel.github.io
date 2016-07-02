@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "GitHub: Android NDK de googlesamples"
+title:  "CodeLab: Android NDK de googlesamples"
 date:   2016-04-01 19:08:44 -0300
-categories: GitHub NDK Android googlesamples
+categories: GitHub NDK Android googlesamples CodeLab
 ---
 Vamos a realizar algunas pruebas sobre [Android NDK][github-android-ndk]{:target="ndk"}
 
@@ -83,7 +83,7 @@ Primero modificamos el onCreate del Activity para poder ingresar dos textos.
 
 Utilizamos un LinearLayout por código (no XML), para editar menos componentes:
 
-{% highlight java %}
+{% highlight java linenos %}
 
 @Override
 public void onCreate(Bundle savedInstanceState)
