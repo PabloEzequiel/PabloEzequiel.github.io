@@ -30,6 +30,12 @@ Obseramos que el proyecto funciona correctamente con **Stockfish chess sobre iOS
 
 ¿Hay Tests? ¿Podemos ejecutarlos? ¿Que resultados nos dan?
 
+## Next Steps
+
+Ver la siguiente aplicación de Chess y iOS en GiHub: [iOS Chess game to learn SpriteKit]
+(https://github.com/mjcuva/Chess){:target="ios1"}
+
+
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
 [github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
