@@ -43,11 +43,14 @@ Error:(40, 23) Lzma86Enc.h: No such file or directory
 
 ![importacion paso2 screenshot](/assets/post_001_droidfish00003.png)
 
-## Links
+Estos errores no los logor solucionar, con lo cual cierro en este punto el post. Pero afortunamente, en el siguiente intento pude compilar y ejecutar tos los proyectos de DroidFish en GitHub, utilizando el eclipse en vez del Android Studio:
 
-Relacionado a:
-http://web.comhem.se/petero2home/javachess/index.html
-http://web.comhem.se/petero2home/droidfish/index.html
+## Siguiente Intento:
+
+Leer el [GitHub: CuckooChess de peterosterlund2]({% post_url 2016-02-02-CuckooChess-de-peterosterlund2 %})
+En donde pude compilar y ejectuar todos los proyecto de GitHub de DroidFish y detallo también todos los pasos.
+
+
 
 
 
@@ -57,50 +60,3 @@ http://web.comhem.se/petero2home/droidfish/index.html
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
 [github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
 [github-chess-004-stockfishchess-android]:   https://github.com/mqprichard/stockfishchess-android
-
-
-
-## Pausa
-
-Todavía me faltan conocimientos para solucionar este problema
-que seguramente está asociado a la conversión de proyectos
-de Eclipse a Android Studio ...
-
-Por ahora suspendo aqui el post....
-
-
-
-## TODO:
-
-Leer el [GitHub: CuckooChess de peterosterlund2]({% post_url 2016-02-02-CuckooChess-de-peterosterlund2 %})
-En donde pude compilar y ejectuar este proyecto de GitHub y detallo todos los pasos
-
-{% if page.comments %}
-
-<div id="disqus_thread"></div>
-<script>
-
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-
-    var disqus_config = function () {
-        this.page.url = pabloezequiel.github.io;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "PabloEze";          // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-
-
-    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-        var d = document, s = d.createElement('script');
-
-        s.src = '//PabloEze.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-
-{% endif %}
