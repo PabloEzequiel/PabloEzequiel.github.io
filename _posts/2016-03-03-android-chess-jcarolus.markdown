@@ -30,9 +30,13 @@ Lo pude compilar y jugar una partida:
 ¿Que tiene el proyecto de interesante o para rescatar?
 
 - Utiliza JNI
+- Tiene implementado modulo de donaciones con  [Android in app billing][android-in-app-billing]{:target="new"}
+
+
 
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
 [github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
 [github-chess-004-stockfishchess-android]:   https://github.com/mqprichard/stockfishchess-android
 [github-chess-005-android-chess]:            https://github.com/jcarolus/android-chess
+[android-in-app-billing]:       https://developer.android.com/google/play/billing/billing_integrate.html

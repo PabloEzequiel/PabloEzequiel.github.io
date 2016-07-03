@@ -116,6 +116,22 @@ include ':gvr-android-sdk/libraries:panowidget'
 include ':gvr-android-sdk/libraries:videowidget'
 {% endhighlight %}
 
+En el  **build.gradle** de app agregamos:
+
+{% highlight bash %}
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile project(':gvr-android-sdk/libraries:common')
+    compile project(':gvr-android-sdk/libraries:commonwidget')
+    compile project(':gvr-android-sdk/libraries:panowidget')
+}
+{% endhighlight %}
+
+
+## ERROR: Lamentablemente perdi el proyecto... deberia retomar desde el paso 5 del CodeLab
+https://codelabs.developers.google.com/codelabs/vr_view_app_101/index.html#5
+
 
 # Paso 04: Editando código Andrid sdk
 

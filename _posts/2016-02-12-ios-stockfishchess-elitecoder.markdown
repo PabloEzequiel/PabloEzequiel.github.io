@@ -33,7 +33,6 @@ Obseramos que el proyecto funciona correctamente con **Stockfish chess sobre iOS
 
 
 
-
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
 [github-chess-002-droidfishchess_android]:   https://github.com/elitecoder/droidfishchess_android
 [github-chess-003-stockfishchess-ios]:       https://github.com/elitecoder/stockfishchess-ios
