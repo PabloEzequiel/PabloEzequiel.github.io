@@ -8,7 +8,7 @@ categories: Android CodeLab googlesamplesr
 Veamos que sucede si intentamos seguir algún ejercicio sobre realidad virtual (VR) sobre Android.
 ¿Que tan complicado es? ¿Cual es la versión mínima de dispositivos Android que se necesita? ¿Como se graban las imágenes para que se muestren dentro de la app de realidad virtual?
 
-Sigamos los ejercicio del [Google Codelab de VR][google-android-vr-codelab] para encontrar estas respuestas.
+Sigamos los ejercicio del [Google Codelab de VR][google-android-vr-codelab]{:target="new"} para encontrar estas respuestas.
 
 ## Comencemos
 
@@ -39,6 +39,8 @@ Unpacking objects: 100% (94/94), done.
 Checking connectivity... done.
 
 {% endhighlight %}
+
+{% include google-adsense.html %} <br/>
 
 # Paso 01: Abrimos y Compilamos el proyecto android-vr-codelab
 
@@ -129,15 +131,15 @@ dependencies {
 {% endhighlight %}
 
 
-## ERROR: Lamentablemente perdi el proyecto... deberia retomar desde el paso 5 del CodeLab
-https://codelabs.developers.google.com/codelabs/vr_view_app_101/index.html#5
-
+{% include google-adsense.html %} <br/>
 
 # Paso 04: Editando código Andrid sdk
 
 Tenemos que agregar la imagen, y se va a cargar de forma eficientes. Para esto se siguen las recomendaciones de [Loading Large Bitmaps Efficiently](https://developer.android.com/training/displaying-bitmaps/load-bitmap.html){:target new}
 
 Seguimos el CodeLab y finalizamos la primera parte, que es la pureba de VR con una imagens, con los siguientes resultados:
+
+
 
 # Error #01: Poco espacio de Heap para Graddle
 
@@ -156,7 +158,7 @@ org.gradle.jvmargs = -Xmx2048m
 
 De esta manera se corrigió ese error.
 
-# Error #02: Poco espacio de Heap para Graddle
+# Error #02: [INSTALL_FAILED_NO_MATCHING_ABIS]
 
 El error que me da es el siguiente:
 
@@ -174,19 +176,100 @@ Desconozco si esta asociado a que estoy ejecutando sobre el emulador.
 
 Intente como soluciones, limpiar el proyecto con un **gradle clean** y también desintalar la versioón anterior del .apk del emulador, pero el error persiste.
 
+{% include google-adsense.html %} <br/>
 
-Recordemos que solicitaba
-An Android Device running Android 5.0 (Lollipop) or greater.
-Y también un dispositivo fisico...
+## Prueba 01: ¿Que pasa si reempplazo el emulador de Android por Gennymotion?
 
-Como yo estoy utilizando el emulador, voy a suspender por ahora el este punto el post, en vista de que no es posible avanzar mucho mas.
+Da el mismo error:
 
-https://codelabs.developers.google.com/codelabs/vr_view_app_101/index.html#4
+{% highlight bash %}
+07/03 18:07:05: Launching app
+$ adb push /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/android-vr-codelab/vr_view_app_101/app/build/outputs/apk/app-debug.apk /data/local/tmp/com.google.devrel.vrviewapp
+$ adb shell pm install -r "/data/local/tmp/com.google.devrel.vrviewapp"
+	pkg: /data/local/tmp/com.google.devrel.vrviewapp
+Failure [INSTALL_FAILED_NO_MATCHING_ABIS]
 
 
-## Next Steps
+$ adb shell pm uninstall com.google.devrel.vrviewapp
+DELETE_FAILED_INTERNAL_ERROR
+Error while Installing APK
+{% endhighlight %}
 
-Ver el siguiente converor de Google Api para realidad virtual [google-api-vr-link][https://storage.googleapis.com/cardboard-camera-converter/index.html]{: target="new"}
+Que significa este error?
+
+De un [post de stackoverflow](http://stackoverflow.com/questions/24572052/install-failed-no-matching-abis-when-install-apk){:target="new"} leemos:
+
+
+*INSTALL_FAILED_NO_MATCHING_ABIS is when you are trying to install an app that has native libraries and it doesn't have a native library for your cpu architecture. For example if you compiled an app for armv7 and are trying to install it on an emulator that uses the Intel architecture instead it will not work.*
+
+O sea, que la arquitectura del emulador que estamos utilizando, no es la esperada  por el apk.
+
+El emulador que utilizamos tiene una arquitectura **x86**, vamos a dar de alta otro con arquitectura **arm**
+Aclaramos que también da el mismo error de ABI con otro emulador **x96_64**
+
+![importacion paso1 screenshot](/assets/post_008_img7.png){: .center-image }
+
+Veamos al emulador dado de alta, con arquitectura **arm**:
+
+![importacion paso1 screenshot](/assets/post_008_img8.png){: .center-image }
+
+Y ahora solo queda ejecutar la aplicación sobre ese emulador:
+
+![importacion paso1 screenshot](/assets/post_008_img9.png){: .center-image }
+
+Nos aparece un mensaje que nos dice:
+
+*Running an x86 Based Android Virtual Device (AVD) is 10X faster. We strongly recommend creating a new AVD*
+
+![importacion paso1 screenshot](/assets/post_008_img10.png){: .center-image }
+
+Ese el problema de utilizar un **arm** en vez de un **x86**
+
+{% include google-adsense.html %} <br/>
+
+# Error #02: [INSTALL_FAILED_NO_MATCHING_ABIS] en ARM:
+
+{% highlight bash %}
+07/03 19:08:21: Launching app
+Error while waiting for device: Timed out after 300seconds waiting for emulator to come online.
+{% endhighlight %}
+
+Me parece que la posibilidad de avanzar con estos proyectos de VR es directamente utilizar celulares Android fisicos.
+
+Como comentario, los emuladores corren sobre emuladores en, por ejemplo, una Mac, con un procesador [Intel Code i5 de arquitectura x86](https://es.wikipedia.org/wiki/Intel_Core_i5_(Nehalem)){:target="wiki"}
+
+Mientras que los celulares suelen  correr sobre dispositivos ARM:
+
+Por Ejemplo, el **Samsung Samsung I9300 Galaxy S III** tiene un procesador **Quad-core 1.4 GHz Cortex-A9** y la wikipedia dice que el [Cortex-A9 tiene  arquitectura ARM](https://en.wikipedia.org/wiki/ARM_Cortex-A9){:target="wiki"}
+
+Por esta razón, correr un emuladores ARM en una MAC con procesador X86 es muchísimo mas lento....
+Dejo un link muy bueno sobre las [Diferencias entre ARM y x86](https://www.pabloyglesias.com/guia-de-supervivencia-geek-diferencias-entre-procesadores-x86-y-arm/){:target="neww"}
+
+{% include google-adsense.html %} <br/>
+
+## Parte II: video
+
+Avancemos con la segunda parte del CodeLab que tiene que ver con la incorporación de un video de VR
+
+
+{% highlight bash %}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile project(':gvr-android-sdk/libraries:common')
+    compile project(':gvr-android-sdk/libraries:commonwidget')
+    compile project(':gvr-android-sdk/libraries:panowidget')
+    compile project(':gvr-android-sdk/libraries:videowidget')
+}
+{% endhighlight %}
+
+Seguimos los pasos de Agregar al **GorillaFragment.java** los componentes de video.
+
+
+## Next Steps
+
+Ver el siguiente converor de Google Api para realidad virtual [google-api-vr-link](https://storage.googleapis.com/cardboard-camera-converter/index.html){: target="new"}
 
 
 

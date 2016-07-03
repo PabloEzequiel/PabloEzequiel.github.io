@@ -12,7 +12,7 @@ Vamos a realizar algunas pruebas sobre [Android NDK][github-android-ndk]{:target
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/android-ndk-master
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/android-ndk
 </pre>
 
 Android NDK son ejemplos de utilización de codigo nativo.
