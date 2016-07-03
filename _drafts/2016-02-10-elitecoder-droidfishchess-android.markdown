@@ -13,10 +13,10 @@ Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Droidfishche
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/droidfishchess_android
 
 Después de importarlo desde Eclipse ADT to Android Studio:
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android_1
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/droidfishchess_android_1
 </pre>
 
 Author: **elitecoder**
@@ -101,10 +101,10 @@ Volvemos a repetir el Error
 Error #004:
 Error:(40, 23) Lzma86Enc.h: No such file or directory
 
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android_1/app/src/main/jni
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/droidfishchess_android_1/app/src/main/jni
 
 Cuando Intente compilar al Android.mk con ndk-build me dice
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android_1/app/src/main/jni/Android.mk:17: jni/gtb/Android.mk: No such file or directory
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/droidfishchess_android_1/app/src/main/jni/Android.mk:17: jni/gtb/Android.mk: No such file or directory
 
 Entonces edite Android.mk y suprimi la carpeta "lib"
 
@@ -160,7 +160,7 @@ Y funciono la compilacion:
 
 
 pwd
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/droidfishchess_android_1/app/src/main/libs/mips
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/droidfishchess_android_1/app/src/main/libs/mips
 MacBook-Pro-de-Pablo:mips pabloin$ ls -la
 total 2016
 drwxr-xr-x  5 pabloin  staff     170 Jun 26 14:21 .

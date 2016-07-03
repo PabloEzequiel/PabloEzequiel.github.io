@@ -13,7 +13,7 @@ Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Android Ches
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/jcarolus
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/jcarolus
 </pre>
 
 Author: **jcarolus**

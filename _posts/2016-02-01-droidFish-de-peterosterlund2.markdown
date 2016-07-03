@@ -13,7 +13,7 @@ Vamos a comentar los exitos y fracasos de trabajar con el proyecto [DroidFish de
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/peterosterlund2
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/peterosterlund2
 </pre>
 
 Author: **peterosterlund2**

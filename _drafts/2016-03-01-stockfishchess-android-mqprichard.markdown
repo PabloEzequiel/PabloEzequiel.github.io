@@ -15,7 +15,7 @@ Veamos si podemos compilarlo
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/mqprichard
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/mqprichard
 </pre>
 
 Author: **mqprichard**

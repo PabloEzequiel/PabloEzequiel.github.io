@@ -12,7 +12,7 @@ Vamos a comentar nuestra experiencia con el proyecto [cuckoochess de peterosterl
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/peterosterlund2/CuckooChess
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/peterosterlund2/CuckooChess
 </pre>
 
 Author: **peterosterlund2**
@@ -26,7 +26,7 @@ Author: **peterosterlund2**
 
 Importamos los proyectos de GitHub de peterosterlund2 al eclipse:
 
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/peterosterlund2
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/peterosterlund2
 
 ![CuckooChess paso1 screenshot](/assets/post_002_img1.png)
 
@@ -194,7 +194,7 @@ $ <ndk>/ndk-build
 
 Que en mi caso es:
 
-$ cd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/peterosterlund2/DroidFish
+$ cd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/peterosterlund2/DroidFish
 $ ndk-build
 
 {% endhighlight %}

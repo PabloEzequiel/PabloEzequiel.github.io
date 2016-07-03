@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "GitHub: Stockfish chess ios de elitecoder"
 date:   2016-02-12 19:08:44 -0300
-categories: Chess GitHub Stockfish ios
+categories: Chess GitHub Stockfish iOS
 ---
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Stockfishchess ios de elitecoder][github-chess-003-stockfishchess-ios]{:target="chess003"}
 
@@ -13,7 +13,7 @@ Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Stockfishche
 Directorio de trabajo:
 
 <pre>
-/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/elitecoder/stockfishchess-ios
+/Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/elitecoder/stockfishchess-ios
 </pre>
 
 Author: **elitecoder**
@@ -26,14 +26,12 @@ Obseramos que el proyecto funciona correctamente con **Stockfish chess sobre iOS
 
 ![importacion paso1 screenshot](/assets/post_003_chess-link-001.png)
 
-## Dudas
+
+## Dudas
 
 ¿Hay Tests? ¿Podemos ejecutarlos? ¿Que resultados nos dan?
 
-## Next Steps
 
-Ver la siguiente aplicación de Chess y iOS en GiHub: [iOS Chess game to learn SpriteKit]
-(https://github.com/mjcuva/Chess){:target="ios1"}
 
 
 [github-chess-001-droidfish]:                https://github.com/peterosterlund2/droidfish
