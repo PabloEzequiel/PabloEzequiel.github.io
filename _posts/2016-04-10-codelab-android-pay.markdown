@@ -26,6 +26,8 @@ TestAndroidPay
 pay.probarnocuestanada.com
 </pre>
 
+{% include google-adsense.html %} <br/>
+
 # Paso 01 - Creamos el Proyecto TestAndroidPay a partir del Codelab
 
 Creamos el proyeto Android, y luego seguimos la mayoría de los pasos del [CodeLab de Google de Androy Pay][google-android-pay-codelab]{:target="pay1"}.
@@ -46,9 +48,9 @@ Después de Agregar la cuenta, nuevamente presionamos el botón de **Android Pay
 
 ¿Como debería continuar? Hay una [pregunta similar el stackoverflow](http://stackoverflow.com/questions/34306835/android-pay-error){:target="stk"}
 
+{% include google-adsense.html %} <br/>
 
-
-# Paso 02 - Pensemos
+## Paso 02 - Pensemos
 
 Si bien, fué positivo poder avanzar con la aplicación **codelab** que nos da Google, tenemos que hacer las siguientes preguntas y observaciones
 
@@ -62,6 +64,24 @@ Si bien, fué positivo poder avanzar con la aplicación **codelab** que nos da G
 {% include google-adsense.html %} <br/>
 
 Por ahora, interrumpimos el post en este punto, y vamos a avanzar leyendo un poco mas la docuentación oficial antes de retomar.
+
+
+{% include google-adsense.html %} <br/>
+
+## TODO Problema a solucionar
+
+
+{% highlight bash %}
+
+PERDI TODO EL Directorio
+MacBook-Pro-de-Pablo:android-play-billing pabloin$ cd ..
+MacBook-Pro-de-Pablo:googlesamples pabloin$ l
+total 77784
+
+drwxr-xr-x   4 pabloin  staff       136 Jun 29 14:38 android-pay-codelab
+
+{% endhighlight %}
+
 
 
 # Next Step

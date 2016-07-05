@@ -22,14 +22,13 @@ Estamos tomando la rama **master** porque nos interesa utilizar al graddle exper
 
 ![importacion paso1 screenshot](/assets/post_005_googlesamples_android_ndk.png)
 
+{% include google-adsense.html %} <br/>
 
 ## Paso 01: Proyecto hello-jni
 
 Vamos a comenzar compilando el primer proyecto hello-jni
 
 Seguimos las indicaciones de https://github.com/googlesamples/android-ndk/tree/master/hello-jni
-
-{% include google-adsense.html %} <br/>
 
 Además, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico:
 [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
@@ -69,13 +68,14 @@ Vemos que el texto "Hello JNI" es tomado desde la funcion nativa:
 
 ![importacion paso2 screenshot](/assets/post_005_img8.png)
 
+{% include google-adsense.html %} <br/>
+
 ## Proyecto 01: hello-jni - Agregamos nuestro código
 
 Como mensionábamos previamente, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico: [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
 
 Sobre el **codelab** me parecieron excelentes los puntos 4 y 5 que indican como agregar una función nativa y ademas hacer el debug. Vamos a tratar de hacer essos pasos:
 
-{% include google-adsense.html %} <br/>
 
 Una función que simplemente diga "Hello Pablo Ezequiel" en el activity:
 
