@@ -136,7 +136,15 @@ Ok, después de un poco de trabajo, pude renombrar los paquetes, gracias a desel
 
 {% include google-adsense.html %} <br/>
 
-## Paso 06: Agegamos nuesto propio key
+## Paso 06: Agregamos permisos
+
+En el AndroidManifest.xml Agregamos permisos:
+
+{% highlight xml %}
+<uses-permission android:name="com.android.vending.BILLING" />
+{% endhighlight %}
+
+## Paso 07: Agregamos nuesto propio key
 
 En el CodeLab, nos indican:
 
@@ -172,6 +180,9 @@ Agregamos la clave de la siguiente manera con un metodo privado que revierte la 
 
 ![importacion paso1 screenshot](/assets/post_010_img6.png){: .center-image }
 
+
+## Paso 08: Ejecutando la aplicación
+
 Si intentamos ejecutar la aplicación en este punto, vemos que al menos levanta:
 
 ![importacion paso1 screenshot](/assets/post_010_img7.png){: .center-image }
@@ -199,14 +210,10 @@ Para ejecutar la aplicación en el **Emulador Andy** que tiene los  **Servicios 
 
 {% include google-adsense.html %} <br/>
 
-## Paso 07: Agregamos permisos
 
-En el AndroidManifest.xml Agregamos permisos:
+## Conclusión
 
-{% highlight xml %}
-<uses-permission android:name="com.android.vending.BILLING" />
-{% endhighlight %}
-
+Por ahora finalizamos en este punto el post, con el obejtivo de haber hecho andar la aplicación y comprendido en un punto intermedio el circuito y solucionado varios problemas relacionados al setup de la app.
 
 
 
