@@ -180,6 +180,7 @@ Agregamos la clave de la siguiente manera con un metodo privado que revierte la 
 
 ![importacion paso1 screenshot](/assets/post_010_img6.png){: .center-image }
 
+{% include google-adsense.html %} <br/>
 
 ## Paso 08: Ejecutando la aplicación
 
@@ -197,7 +198,9 @@ Una de las cuales, es que si estoy corriendo en un emulador, los servicios de Go
 
 **¿Como se si en mi Emulador, tengo los servicios del Google Play instalados y configurados?**
 
-Parece que se puede descargar el **GAPPS Package** para instalar.
+Para el emulador del **Android Studio**, parece que se puede descargar el **GAPPS Package** para instalar. No lo probe.
+
+Probé poco el Gennymotion y no probé el bluestacks, pero con Andy pude llegar al objetivo:
 
 Otra alternativa, el emulador **Andy** parece que trae los **Servicios del Google Play** instalados.
 ¿Se puede ejecutar la aplicacion?
@@ -206,9 +209,14 @@ Depsués de algunas pruebas, tal como se ve en la imagen a continuación:
 
 ![importacion paso1 screenshot](/assets/post_010_img8.png){: .center-image }
 
+La versión de Andy utilizada es la siguiente:
+
+![importacion paso1 screenshot](/assets/post_010_img9.png){: .center-image }
+
 Para ejecutar la aplicación en el **Emulador Andy** que tiene los  **Servicios del Google Play** instalados, tuve que ingresar mi cuenta de gmail en el Google Play instalado en Andy.
 
-{% include google-adsense.html %} <br/>
+- Android 4.4.2
+- Andy_vm_custom 46.1.112
 
 
 ## Conclusión

@@ -247,6 +247,13 @@ Dejo un link muy bueno sobre las [Diferencias entre ARM y x86](https://www.pablo
 
 {% include google-adsense.html %} <br/>
 
+
+# Error #03: En Andy API 19 vs API 17
+
+Me da el Error que Android de Andy es versio 17 y la minima de esta App es versión 19...
+
+
+
 ## Parte II: video
 
 Avancemos con la segunda parte del CodeLab que tiene que ver con la incorporación de un video de VR
@@ -269,7 +276,7 @@ Seguimos los pasos de Agregar al **GorillaFragment.java** los componentes de vid
 
 ## Next Steps
 
-Ver el siguiente converor de Google Api para realidad virtual [google-api-vr-link](https://storage.googleapis.com/cardboard-camera-converter/index.html){: target="new"}
+Ver el siguiente conversor de Google Api para realidad virtual [google-api-vr-link](https://storage.googleapis.com/cardboard-camera-converter/index.html){: target="new"}
 
 
 

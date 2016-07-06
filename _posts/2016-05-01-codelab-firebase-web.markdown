@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Firebase de googlesamples"
+title:  "CodeLab: Firebase WEB de googlesamples"
 date:   2016-05-01 19:08:44 -0300
-categories: Codelab Firebase googlesamplesr
+categories: Codelab Firebase WEB googlesamples
 ---
 Desde que vi los videos del Google I/0 2016, me llamó la atención las posibilidades de Firebase: Fué uno de los productos destacados del Google I/O. Nosotros como desarrolladores: ¿Como podemos sacarle provecho?¿De que forma se configura?¿Que se puede hacer con el uso gratuito de la plataforma?
 
@@ -22,6 +22,14 @@ Clonamos el proyecto:
 {% highlight git %}
 $ git clone https://github.com/firebase/friendlychat
 {% endhighlight %}
+
+Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
+
+![Firebase screenshot](/assets/post_012_img1.png)
+
+En este post, utilizamos los de **web** y **web-start**
+
+La diferencia, es que el "start" tiene el código de inicio, y que nos permite a nosotros agregarle más código a medida que avanzamos con el CodeLab.
 
 Y de aquí vamos a [Firebase](https://www.firebase.com/){:target="fb"}. En mi caso, ya estaba dado de alta en Firebase [cuando realicés mis primeras pruebas en la plataforma][pncn-post-firebase-1]{: target="pncn"}... por cierto, sin demasiado éxito, o con un alto grado de fracaso...
 
@@ -360,7 +368,7 @@ Pero ***¿Donde está el chat del CodeLab?***
 
 .... Ok... por ahora suspendemos el post en este punto, esperando tener mejor suerte con los pasos siguientes cuando retomemos....
 
- 
+
 
 
 
