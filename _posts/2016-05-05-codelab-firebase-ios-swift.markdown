@@ -7,7 +7,7 @@ categories: Codelab Firebase iOS googlesamples swift
 ---
 Continuado con la intención de seguir los CodeLab de Firebase, vamos dedicar este post a comentar las experiencias con el CodeLab de Firebase para iOS. Este post es la versión Swift.
 
-El CodeLab que seguimoes es el sigueinte [Firebase iOS Codelab Swift
+El CodeLab que seguimoes es el sigueinte [Firebase iOS Codelab Swift (starter)
 ](https://codelabs.developers.google.com/codelabs/firebase-ios-swift/index.html?index=..%2F..%2Findex){:target="cdlios"}
 
 Hay algunos prerrequisitos que hay que complir, como tener el Xcode, el CocoaPod, pero lo que es nuevo para el desarrollador de iOS es que hay que [configuar iOS para Firebase] (https://firebase.google.com/docs/ios/setup){:target="cdls"}
@@ -210,6 +210,44 @@ De nuevo, vamos a la consola de Firebase para configurar la autenticación, pero
 
 agregamos el pod 'FirebaseAuth'
 
+{% highlight javascript %}
+pod 'FirebaseAuth'
+{% endhighlight %}
+
+***duda:*** ¿No sera pod 'Firebase/Auth'... creo que hay un error de tipeo?
+***Respuesta***: Si miramos el proyecto **swift** en vez del **swift-starter** vemos que efectivamente es un error de tipeo.
+
+## Paso 07: Pausa - Ejecutamos el proyecto finalizado
+
+Vemos a ejectuar la versión finalizada del proyecto: O sea  **swift** en vez del **swift-starter**
+
+Creo que este es un buen momento para hacer esto, porque ya está configurada la consola de Firebase.
+
+Lo unico que tenemos que ajustar son dos cosas: **El plist** y la dirección dada por **Firebase**
+
+Y vemos el resultado, que efectivamente la aplicación levanta:
+
+![Codelab FriendlyChat Swift finalizado](/assets/post_012_img10_swift.png)
+
+Se ve en la aplicación finalzada,
+- La publicidad AdMob
+- La Autenticación, etc.
+
+Observemos como parte de los chats ingresados, quedan cargados dentro de la plataforma Firebase:
+
+![Codelab FriendlyChat Swift finalizado](/assets/post_012_img11_swift.png)
+
+También están las imágenes subidas como adjuntos:
+
+![Codelab FriendlyChat Swift finalizado](/assets/post_012_img12_swift.png)
+
+
+
+
+
 ## Links
+
+
+
 
 [firebase-links-rapidos]:         https://firebase.google.com/docs/samples/#ios
