@@ -37,6 +37,8 @@ En este post, utilizamos los de swift: **swift** y **swift-starter**
 
 La diferencia, es que el "start" tiene el código de inicio, y que nos permite a nosotros agregarle más código a medida que avanzamos con el CodeLab.
 
+{% include google-adsense.html %} <br/>
+
 ## Paso 01: Instalamos Cocoa y CocoaPod
 
 Este es uno de los primeros requisitos:
@@ -123,6 +125,8 @@ Que nos permite abrir y compilar la aplicación:
 
 ![FCodelab FriendlyChat Swift](/assets/post_012_img6_sw.png)
 
+{% include google-adsense.html %} <br/>
+
 ## Paso 04: Create Firebase console Project
 
 El proyecto **FriendlyChat** de Firebase ya lo había creado cuando segui el [CodeLab de la parte web]({% post_url 2016-05-01-codelab-firebase-web %}){:target="new"}.
@@ -173,7 +177,9 @@ Y tenemos que agregar la siguiente linea de codigo en **AppDelegate.swift** que 
 
 De esta forma vemos que en Firebase tenemos el registro de la aplicación de iOS
 
-## Paso 04: Reglas de Acceso a la aplicación:
+{% include google-adsense.html %} <br/>
+
+## Paso 05: Reglas de Acceso a la aplicación:
 
 En la consola de Firebse, agregamos las restricciones:
 
@@ -196,7 +202,7 @@ Las reglas (y el simulador):
 
 ![Codelab FriendlyChat Swift Firebase Database](/assets/post_012_img8_swift_2.png)
 
-## Paso 05: Firebase Authentication
+## Paso 06: Firebase Authentication
 
 De nuevo, vamos a la consola de Firebase para configurar la autenticación, pero habilitamos autenticación por mail (recordemos que en el [CodeLab de la parte web]({% post_url 2016-05-01-codelab-firebase-web %}){:target="new"} la autenticación fué por Google):
 

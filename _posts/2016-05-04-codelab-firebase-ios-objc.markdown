@@ -34,6 +34,8 @@ En este post, utilizamos los de objective-c: **objc** y **objc-starter**
 
 La diferencia, es que el "start" tiene el código de inicio, y que nos permite a nosotros agregarle más código a medida que avanzamos con el CodeLab.
 
+{% include google-adsense.html %} <br/>
+
 ## Paso 01: Instalamos Cocoa y CocoaPod
 
 Ya lo teniamos instalado **Cocoa y CocoaPod**, por las otras pruebas de la [versión de swift y firebase que hicimos]({% post_url 2016-05-05-codelab-firebase-ios-swift %}){:target="p"}

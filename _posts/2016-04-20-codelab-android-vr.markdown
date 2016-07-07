@@ -252,7 +252,7 @@ Dejo un link muy bueno sobre las [Diferencias entre ARM y x86](https://www.pablo
 
 Me da el Error que Android de Andy es versio 17 y la minima de esta App es versión 19...
 
-
+{% include google-adsense.html %} <br/>
 
 ## Parte II: video
 

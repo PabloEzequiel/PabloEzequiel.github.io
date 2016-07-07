@@ -33,6 +33,7 @@ La diferencia, es que el "start" tiene el código de inicio, y que nos permite a
 
 Y de aquí vamos a [Firebase](https://www.firebase.com/){:target="fb"}. En mi caso, ya estaba dado de alta en Firebase [cuando realicés mis primeras pruebas en la plataforma][pncn-post-firebase-1]{: target="pncn"}... por cierto, sin demasiado éxito, o con un alto grado de fracaso...
 
+{% include google-adsense.html %} <br/>
 
 ## Paso 01: Creamos nuestro proyecto en Firebase
 
