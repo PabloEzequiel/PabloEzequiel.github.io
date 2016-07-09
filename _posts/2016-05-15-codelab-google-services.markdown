@@ -8,7 +8,7 @@ categories: Codelab Google-Services googlesamples
 Vamos a seguir un CodeLab vinculado a **Google Identity Platform** que se enseña a utilizar algunos **google-services** para autenticarse a través del perfil, o la cuenta de Google.
 
 Específicamente, vamos a ver como se hace esto en **aplicaciones Android**, aunque el mismo Codelab explica como obtener los mismos resultados para iOS y WEB.
-
+ 
 Los links son los siguientes:
 
 - [Google Identity Platform](https://developers.google.com/identity/){: target="codelab1"}
