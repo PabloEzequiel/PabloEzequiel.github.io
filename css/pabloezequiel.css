@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
+.center-image-2
+{
+  margin: 0 auto;
+  display: block;
+  width: 220px;
+  height: auto;
+}
+
+
+.resize-image
+{
+    text-align: center;
+
+}

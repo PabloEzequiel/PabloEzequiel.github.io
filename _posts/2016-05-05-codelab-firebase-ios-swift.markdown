@@ -223,7 +223,7 @@ Vemos a ejectuar la versión finalizada del proyecto: O sea  **swift** en vez de
 
 Creo que este es un buen momento para hacer esto, porque ya está configurada la consola de Firebase.
 
-Lo unico que tenemos que ajustar son dos cosas: **El plist** y la dirección dada por **Firebase**
+Lo unico que tenemos que ajustar son dos cosas: **GoogleService-Info.plist** y la dirección dada por **Firebase**
 
 Y vemos el resultado, que efectivamente la aplicación levanta:
 
