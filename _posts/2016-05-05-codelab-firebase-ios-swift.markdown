@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Firebase iOS (swift) de googlesamples"
+title:  "¿Como utilizar Firebase con iOS (swift)? FriendlyChat App"
 date:   2016-05-05 19:08:44 -0300
-categories: Codelab Firebase iOS googlesamples swift
+categories: CodeLab GoogleSamples Android Firebase iOS swift FriendlyChat
 ---
 Continuado con la intención de seguir los CodeLab de Firebase, vamos dedicar este post a comentar las experiencias con el CodeLab de Firebase para iOS. Este post es la versión Swift.
 

@@ -1,15 +1,15 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Android Pay de googlesamples"
+title:  "¿Como funciona Android Pay? (WIP)"
 date:   2016-04-10 19:08:44 -0300
-categories: Android Pay CodeLab googlesamples
+categories: CodeLab GoogleSamples AndroidPay
 ---
-Vamos a hacer algunas pruebas sobre el [Android Pay][google-android-pay-link1]{:target="apy1"} y para hacer las pruebas, vamos a recorrer al [CodeLab de Google de Androy Pay][google-android-pay-codelab]{:target="pay1"}
+Vamos a hacer algunas pruebas para entender como funciona [Android Pay][google-android-pay-link1]{:target="apy1"} y para hacer las pruebas, vamos a recorrer al [CodeLab de Google de Android Pay][google-android-pay-codelab]{:target="pay1"}
 
 Como dijo Sócrates: "No puedo enseñar nada a nadie; solo puedo hacerles pensar"
 
-Pues bien.... comencemos pensando, programando y aunque "sepamos que no sabemos nada" vamos a hacer el esfuerzo de intentar aprender algo nuevo.
+Pues bien.... comencemos pensando, programando y aunque "sepamos que no sabemos nada" vamos a hacer el esfuerzo con **Android Pay** para intentar aprender algo nuevo.
 
 ## Comencemos
 

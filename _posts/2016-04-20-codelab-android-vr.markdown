@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Android VR de googlesamples"
+title:  "¿Cómo funciona la Realidad Virtual (VR) en Android? (WIP)"
 date:   2016-04-20 19:08:44 -0300
-categories: Android CodeLab googlesamplesr
+categories: CodeLab GoogleSamples Android VR VirtualReality
 ---
-Veamos que sucede si intentamos seguir algún ejercicio sobre realidad virtual (VR) sobre Android.
-¿Que tan complicado es? ¿Cual es la versión mínima de dispositivos Android que se necesita? ¿Como se graban las imágenes para que se muestren dentro de la app de realidad virtual?
+Vamos seguir el ejercicio [CodeLab de GoogleSamples de Realidad Virtual (VR)][google-android-vr-codelab]{:target="new"} para entender como funciona la VR en Android y responder preguntas como:
 
-Sigamos los ejercicio del [Google Codelab de VR][google-android-vr-codelab]{:target="new"} para encontrar estas respuestas.
+- ¿Cómo funciona la Realidad Virtual (VR) en Android?
+- ¿Que tan complicado es?
+- ¿Cual es la versión mínima de dispositivos Android que se necesita?
+- ¿Como se graban las imágenes para que se muestren dentro de la app de Realidad Virtual?
 
 ## Comencemos
 

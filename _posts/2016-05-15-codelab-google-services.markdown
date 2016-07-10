@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Explorando Google Identity Platform para Android"
+title:  "¿Como funciona la 'Google Identity Platform' en Android?"
 date:   2016-05-15 19:08:44 -0300
-categories: Codelab Google-Services googlesamples
+categories: CodeLab GoogleSamples Android Google-Services
 ---
-Vamos a seguir un CodeLab vinculado a **Google Identity Platform** que se enseña a utilizar algunos **google-services** para autenticarse a través del perfil, o la cuenta de Google.
+Vamos a seguir un CodeLab vinculado a **Google Identity Platform** que se enseña a utilizar algunos **google-services** para **autenticarse** a través del perfil, o la cuenta de Google.
 
 Específicamente, vamos a ver como se hace esto en **aplicaciones Android**, aunque el mismo Codelab explica como obtener los mismos resultados para iOS y WEB.
- 
+
 Los links son los siguientes:
 
 - [Google Identity Platform](https://developers.google.com/identity/){: target="codelab1"}
@@ -249,4 +249,4 @@ Y nos desconectamos
 
 ![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_6.png){: .center-image-2 }
 
-Con esto damos por cerrado el post de Google Sign In y el ejemplo del CodeLab
+Con esto damos por cerrado el post de **Google Sign In** donde intentamos mostrar ***Como funciona la 'Google Identity Platform' en Android*** a través de nuestra experiencia siguiendo el ejemplo del CodeLab de GoogleSamples.

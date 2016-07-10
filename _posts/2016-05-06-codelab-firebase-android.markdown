@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Firebase Android de googlesamples"
-date:   2016-05-07 19:08:44 -0300
-categories: Codelab Firebase Android googlesamples
+title:  "¿Como utilizar Firebase con Android? FriendlyChat App"
+date:   2016-05-06 19:08:44 -0300
+categories: CodeLab GoogleSamples Android Firebase Android FriendlyChat
 ---
 Continuado con la intención de seguir los CodeLab de Firebase, vamos dedicar este post a compentar las experiencias con el [CodeLab de Firebase para Android](https://codelabs.developers.google.com/codelabs/firebase-android/index.html?index=..%2F..%2Findex#0){: target="clgg"}.
 

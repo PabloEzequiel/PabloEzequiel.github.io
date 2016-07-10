@@ -3,7 +3,7 @@ layout: post
 comments: false
 title:  "¿Que es y como funciona Android NDK?"
 date:   2016-04-01 19:08:44 -0300
-categories: CodeLab Googlesampes GitHub NDK Android
+categories: CodeLab GoogleSamples GitHub NDK Android
 ---
 ¿Que es **Android NDK**?¿Como funciona?
 

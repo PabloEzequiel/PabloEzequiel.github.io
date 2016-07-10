@@ -1,14 +1,14 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Android In-app Billing de googlesamples"
+title:  "¿Como funciona 'In-app Billing' en Android?"
 date:   2016-04-10 19:08:44 -0300
-categories: Android Pay CodeLab googlesamples In-app billing
+categories: CodeLab GoogleSamples Android In-app Billing
 ---
-Veamos como se implementan las [Compras in-app en Andorid](https://developer.android.com/google/play/billing/billing_integrate.html){:target="inapp"}. Para esto, vamos a seguir el [CodeLab](https://developer.android.com/training/in-app-billing/preparing-iab-app.html){:target="inapp2"} con su [repositorio GitHub](https://github.com/googlesamples/android-play-billing/tree/master/TrivialDrive){:target="ds"}
+Veamos como se implementan las [Compras in-app o In-App Billing](https://developer.android.com/google/play/billing/billing_integrate.html){:target="inapp1"}  en Android. Para esto, vamos a seguir el [CodeLab](https://developer.android.com/training/in-app-billing/preparing-iab-app.html){:target="inapp2"} con su [repositorio GitHub](https://github.com/googlesamples/android-play-billing/tree/master/TrivialDrive){:target="ds"}
 
 
-Hay dos links relacionados el a este codelab:
+Hay dos links relacionados el a este CodeLab:
 
 - [Video de in-app billing](https://www.youtube.com/watch?v=UvCl5Xx7Z5o){:target="inap"} o también el siguiente video sobre la
 - [Video de Seguridad de in-app Billing](https://www.youtube.com/watch?annotation_id=annotation_803104095&feature=iv&src_vid=UvCl5Xx7Z5o&v=DgcJPIRpfSk){: target="neww"} del Google I/O 2013
@@ -217,7 +217,6 @@ Para ejecutar la aplicación en el **Emulador Andy** que tiene los  **Servicios 
 
 - Android 4.4.2
 - Andy_vm_custom 46.1.112
-
 
 ## Conclusión
 
