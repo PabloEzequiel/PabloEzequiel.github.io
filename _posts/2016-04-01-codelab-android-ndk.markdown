@@ -39,44 +39,37 @@ Seguimos las indicaciones de https://github.com/googlesamples/android-ndk/tree/m
 Además, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico:
 [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
 
-![importacion paso2 screenshot](/assets/post_005_img2.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img2.png)
 
-Launch Android Studio.
-Open the sample directory.
-Open File/Project Structure...
-Click Download or Select NDK location:
+En el Android Studio, abrimos **Open File/Project Structure...** y **Select NDK location:**
 
-![importacion paso2 screenshot](/assets/post_005_img3.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img3.png)
 
-Click Tools/Android/Sync Project with Gradle Files.
-Click Run/Run 'app'.
+Hacemos Click en **Sync Project with Gradle Files** y luego en **Run 'app'**
 
-![importacion paso2 screenshot](/assets/post_005_img4.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img4.png)
 
-Con lo cual finalizamos el ejercicio, desde el punto de vista de compilación/ejecución de Andorid NDK y JNI.
-Con graddle experimental
+Veamos los componentes clave del proyecto:
 
-¿Que podemos obserar y aprender?
+La clase Java
 
-Observemos la clase Java
-
-![importacion paso2 screenshot](/assets/post_005_img5.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img5.png)
 
 El objeto hello-jni.c
 
-![importacion paso2 screenshot](/assets/post_005_img6.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img6.png)
 
 Y ademas el script de graddle experimental:
 
-![importacion paso2 screenshot](/assets/post_005_img7.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img7.png)
 
 Vemos que el texto "Hello JNI" es tomado desde la funcion nativa:
 
-![importacion paso2 screenshot](/assets/post_005_img8.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img8.png)
 
 {% include google-adsense.html %} <br/>
 
-## Proyecto 01: hello-jni - Agregamos nuestro código
+## Paso 02: Agregamos un nuevo método JNI
 
 Como mensionábamos previamente, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico: [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
 
@@ -131,7 +124,7 @@ Luego agregamos en la misma Activity, la nueva función nativa **sayHelloFromJNI
 
 Para la cual el compilador nos data la posibilidad de corregirlo:
 
-![importacion paso2 screenshot](/assets/post_005_img9.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img9.png)
 
 Con el asistente del Android Studio podemos implementar el método:
 
@@ -156,17 +149,15 @@ Java_com_example_hellojni_HelloJni_sayHelloFromJNI(JNIEnv *env, jobject instance
 
 {% endhighlight %}
 
-Veamos el IDE:
+Veamos el **IDE**:
 
-![importacion paso2 screenshot](/assets/post_005_img10.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img10.png)
 
 Y el resultado de la ejecución:
 
-![importacion paso2 screenshot](/assets/post_005_img11.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img11.png)
 
-
-
-Con esto damos por cerrado el post y las prubas sobre el **Proyecto 01 hello-jni**
+De esta forma, podemos cerrar el post, donde utilizando el proyecto de GitHub **hello-jni**, pudimos agregar un nuevo método JNI que utiliza la plataforma NDK.
 
 
 
