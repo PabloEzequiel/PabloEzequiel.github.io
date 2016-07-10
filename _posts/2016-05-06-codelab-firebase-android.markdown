@@ -28,6 +28,8 @@ Clonamos el proyecto:
 $ git clone https://github.com/firebase/friendlychat
 {% endhighlight %}
 
+{% include google-adsense.html %} <br/>
+
 ## Paso 01: Compilar con el Android Studio
 
 Vamos a abrir el proyecto (no la versión starter, sino la finalizada) con el Android Studio.
@@ -45,6 +47,8 @@ Para solucionar esto, vamos a seguir con los pasos 4 y 5 del CodeLab, que hacen 
 - Vamos a registrar la parte **Android** de la App en la consola
 - Vamos a volver a subir la clave SHA-1 para Android en la consola
 - Vamos a obtener el archivo **google-services.json**
+
+{% include google-adsense.html %} <br/>
 
 ## Paso 02: Configuración en la consola de developer de google
 
@@ -64,7 +68,9 @@ Después de lo cual obtenemos la clave que estámos necesitando:
 
 En realidad el paso anterior estuvo de mas .... ya que debería haber realizado el alta desde la [consola de Firebase](https://console.firebase.google.com/){:target="new"}:
 
-## Paso 02: Configuración en la consola de Firebase de google
+{% include google-adsense.html %} <br/>
+
+## Paso 03: Configuración en la consola de Firebase de Google
 
 En la [consola de Firebase](https://console.firebase.google.com/){:target="new"} elegimos nuestra proyecto FriendlyChat que ya estaba creado, y añadimos la configuración para **aplicaciones Android**
 
@@ -78,7 +84,9 @@ Y finalmente descargamos el **google-services.json** que copiamos dentro del dir
 
 ![Android FriendlyChat with Firebase - screenshot](/assets/post_011_img7.png)
 
-## Paso 03: Ejecutamos la aplicación
+{% include google-adsense.html %} <br/>
+
+## Paso 04: Ejecutamos la aplicación
 
 Observamos que es posible ejecutar la aplicación y que, una vez pasado el sign-in se recuperan los mensajes creados desde los tutoriales de [Firebase con swift]({% post_url 2016-05-05-codelab-firebase-ios-swift %}){:target="new2"} y [Firebase con Objective-c]({% post_url 2016-05-04-codelab-firebase-ios-objc %}){:target="new3"}
 
