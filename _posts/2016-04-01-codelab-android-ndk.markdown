@@ -1,11 +1,17 @@
 ---
 layout: post
 comments: false
-title:  "CodeLab: Android NDK de googlesamples"
+title:  "¿Que es y como funciona Android NDK?"
 date:   2016-04-01 19:08:44 -0300
-categories: GitHub NDK Android googlesamples CodeLab
+categories: CodeLab Googlesampes GitHub NDK Android
 ---
-Vamos a realizar algunas pruebas sobre [Android NDK][github-android-ndk]{:target="ndk"}
+¿Que es **Android NDK**?¿Como funciona?
+
+Para resumir la teoría en dos palabras, podemos decir que **Android NDK (Native Development Kit)** nos permite reutilizar código escrito en C/C++. Y para esto se utiliza de JNI (Java Native Interface).
+
+Muchas aplicaciones, como juegos, hacen uso del NDK. La idea de este post es aprender lo mínimo y necesario para entender de que se trata NDK y JNI.
+
+Para esto, vamos a recorrer el **"CodeLab: Android NDK de googlesamples"** que podemos encontrar en [GitHub: Android NDK][github-android-ndk]{:target="ndk"}
 
 ## Comencemos
 
