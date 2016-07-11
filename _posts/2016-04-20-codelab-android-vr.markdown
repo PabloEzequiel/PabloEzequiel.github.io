@@ -35,9 +35,13 @@ Resultado:
 
 {% highlight bash %}
 $ pwd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/android-vr-codelab
-$ git clone https://github.com/googlecodelabs/vr_view_app_101.git Cloning into 'vr_view_app_101'...
+$ git clone https://github.com/googlecodelabs/vr_view_app_101.git
+Cloning into 'vr_view_app_101'...
 
-remote: Counting objects: 94, done. remote: Total 94 (delta 0), reused 0 (delta 0), pack-reused 94 Unpacking objects: 100% (94/94), done. Checking connectivity... done.
+remote: Counting objects: 94, done.
+remote: Total 94 (delta 0), reused 0 (delta 0), pack-reused 94 
+Unpacking objects: 100% (94/94), done.
+Checking connectivity... done.
 
 {% endhighlight %}
 
