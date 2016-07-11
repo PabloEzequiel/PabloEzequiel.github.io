@@ -12,9 +12,11 @@ Vamos seguir el ejercicio [CodeLab de GoogleSamples de Realidad Virtual (VR)][go
 - ¿Cual es la versión mínima de dispositivos Android que se necesita?
 - ¿Como se graban las imágenes para que se muestren dentro de la app de Realidad Virtual?
 
-**Aclaración:** El CodeLab muestra como integrar las vistas de 360 grados en una aplicación Android, pero no como convertirla al modo binocular, o sea, con la pantalla dividida, al cual estamos acostumbrados cuando vemos las aplicaciones con el **Google Cardboard**.
+**Aclaración 1:** El CodeLab muestra como integrar las vistas de 360 grados en una aplicación Android, pero no como convertirla al modo binocular, o sea, con la pantalla dividida, al cual estamos acostumbrados cuando vemos las aplicaciones con el **Google Cardboard**.
 
 Dicho de otra manera, para este tutorial no se utiliza en  **Google Cardboard**.
+
+**Aclaración 2:** El objetivo del post es ejecutar y compilar el ejercicio finalizado del CodeLab, y detenerse en donde resulte interesante. El paso a paso, y como se progama está en el [CodeLab de GoogleSamples de Realidad Virtual (VR)][google-android-vr-codelab]{:target="new"}
 
 ## Comencemos
 
@@ -52,15 +54,15 @@ Checking connectivity... done.
 
 Luego, abrimos el proyecto con el Adnroid Studio, y lo ejecutamos:
 
-![importacion paso1 screenshot](/assets/post_008_img1.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img1.png){: .center-image }
 
 La primera página de la app:
 
-![importacion paso1 screenshot](/assets/post_008_img2.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img2.png){: .center-image }
 
 La segunda página de la app:
 
-![importacion paso1 screenshot](/assets/post_008_img3.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img3.png){: .center-image }
 
 A simple vista, la app tiene dos imágens, dos fragments (Gorilla + Wellcome), y un main activity.
 
@@ -75,7 +77,7 @@ En principio, no esta la aplicación de Google en iOS
 
 Veamos como es la imagen de ejemplo que viene con la APP:
 
-![importacion paso1 screenshot](/assets/post_008_img_3d_01.jpg){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img_3d_01.jpg){: .center-image }
 
 ¿Como podríamos generala?
 
@@ -106,11 +108,11 @@ $ git clone https://github.com/googlevr/gvr-android-sdk.git
 
 Veamos que sucede:
 
-![importacion paso1 screenshot](/assets/post_008_img5.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img5.png){: .center-image }
 
 Y aparce **avr-android-sdk** dentor del codelab listo para que lo agreguemos en el gradle:
 
-![importacion paso1 screenshot](/assets/post_008_img6.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img6.png){: .center-image }
 
 En el  **settings.gradle** agregamos:
 
@@ -213,21 +215,21 @@ O sea, que la arquitectura del emulador que estamos utilizando, no es la esperad
 El emulador que utilizamos tiene una arquitectura **x86**, vamos a dar de alta otro con arquitectura **arm**
 Aclaramos que también da el mismo error de ABI con otro emulador **x96_64**
 
-![importacion paso1 screenshot](/assets/post_008_img7.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img7.png){: .center-image }
 
 Veamos al emulador dado de alta, con arquitectura **arm**:
 
-![importacion paso1 screenshot](/assets/post_008_img8.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img8.png){: .center-image }
 
 Y ahora solo queda ejecutar la aplicación sobre ese emulador:
 
-![importacion paso1 screenshot](/assets/post_008_img9.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img9.png){: .center-image }
 
 Nos aparece un mensaje que nos dice:
 
 *Running an x86 Based Android Virtual Device (AVD) is 10X faster. We strongly recommend creating a new AVD*
 
-![importacion paso1 screenshot](/assets/post_008_img10.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img10.png){: .center-image }
 
 Ese el problema de utilizar un **arm** en vez de un **x86**
 
@@ -263,7 +265,7 @@ Me da el Error que Android de Andy es versio 17 y la minima de esta App es versi
 
 Voy a hacer la prueba en un **Moto G (Tercera Generacion)** que tiene la versión de **Android 5.1.1**. Lamentablemente este **Moto Gno No viene con Giroscopio** con lo cual hay aplicaciones de Realidad Virtual que no funcionan en el **Moto G (Tercera Generacion)**. Yo, desde mi costador de desarrollador, no hubiera comprado este MotoG si hubiera sabido esto de antemano:
 
-![importacion paso1 screenshot](/assets/post_008_img11.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img11.png){: .center-image }
 
 ... pero ahora es tarde...
 
@@ -275,7 +277,7 @@ Observemos que pudimos ejecutar exitosamente la aplicación en el motorola:
 
 , aunque no divide la imagen tal como lo necesita **Google Cardboard**:
 
-![importacion paso1 screenshot](/assets/post_008_img12.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img12.png){: .center-image }
 
 
 Tal como aclaramos al inicio del post, esta aplicación muestra como integrar las vistas de 360 grados en una aplicación Android, pero no como convertirla al modo binocular, o sea, con la pantalla dividida, al cual estamos acostumbrados cuando vemos las aplicaciones con el **Google Cardboard**.
@@ -299,13 +301,13 @@ dependencies {
 }
 {% endhighlight %}
 
-Seguimos los pasos de Agregar al **GorillaFragment.java** los componentes de video:
+El **componente Java** asociado a la incorporación del video es **GorillaFragment.java**:
 
 El resultado es la posibilidad de ver el Video 360 dentro de la App.
 
 La siguiente imagen no le hace justicia al resultado, pero es un video 360 donde el Gorilla y su cria se mueven por la pantalla. Además de que desde nuestra perspectiva podemos ver todo el entorno en los 360 de ese bosque:
 
-![importacion paso1 screenshot](/assets/post_008_img13.png){: .center-image }
+![VR en Android - screenshot](/assets/post_008_img13.png){: .center-image }
 
 En este punto vamos a dar por cerrado el post, con la sensación de que aún queda mucho mas por aprender de los videos 360 y la realidad virtual. Aunque también, a través de los pasos recorridos en este post, y las dificultades técnicas que se presentaron, pudimos aprender al menos algunas cosas interesantes sobre estos temas.
 
