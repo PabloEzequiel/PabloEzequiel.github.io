@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title:  "¿Cómo funciona la Realidad Virtual (VR) en Android? (WIP)"
+title:  "¿Cómo funciona la Realidad Virtual (VR) en Android?"
 date:   2016-04-20 19:08:44 -0300
 categories: CodeLab GoogleSamples Android VR VirtualReality
 ---
@@ -11,6 +11,10 @@ Vamos seguir el ejercicio [CodeLab de GoogleSamples de Realidad Virtual (VR)][go
 - ¿Que tan complicado es?
 - ¿Cual es la versión mínima de dispositivos Android que se necesita?
 - ¿Como se graban las imágenes para que se muestren dentro de la app de Realidad Virtual?
+
+**Aclaración:** El CodeLab muestra como integrar las vistas de 360 grados en una aplicación Android, pero no como convertirla al modo binocular, o sea, con la pantalla dividida, al cual estamos acostumbrados cuando vemos las aplicaciones con el **Google Cardboard**.
+
+Dicho de otra manera, para este tutorial no se utiliza en  **Google Cardboard**.
 
 ## Comencemos
 
@@ -254,7 +258,29 @@ Dejo un link muy bueno sobre las [Diferencias entre ARM y x86](https://www.pablo
 
 Me da el Error que Android de Andy es versio 17 y la minima de esta App es versión 19...
 
-{% include google-adsense.html %} <br/>
+
+# Error #03: Pruebo en un Motorla G
+
+Voy a hacer la prueba en un **Moto G (Tercera Generacion)** que tiene la versión de **Android 5.1.1**. Lamentablemente este **Moto Gno No viene con Giroscopio** con lo cual hay aplicaciones de Realidad Virtual que no funcionan en el **Moto G (Tercera Generacion)**. Yo, desde mi costador de desarrollador, no hubiera comprado este MotoG si hubiera sabido esto de antemano:
+
+![importacion paso1 screenshot](/assets/post_008_img11.png){: .center-image }
+
+... pero ahora es tarde...
+
+Continuemos:
+
+Tenemos como soporte el post sobre [Como conectar un Moto G al Android Studio](http://javaen.blogspot.com.ar/2015/10/como-conectar-un-moto-g-al-android.html){:target="javaen"}.
+
+Observemos que pudimos ejecutar exitosamente la aplicación en el motorola:
+
+, aunque no divide la imagen tal como lo necesita **Google Cardboard**:
+
+![importacion paso1 screenshot](/assets/post_008_img12.png){: .center-image }
+
+
+Tal como aclaramos al inicio del post, esta aplicación muestra como integrar las vistas de 360 grados en una aplicación Android, pero no como convertirla al modo binocular, o sea, con la pantalla dividida, al cual estamos acostumbrados cuando vemos las aplicaciones con el **Google Cardboard**.
+
+Dicho de otra manera, para este tutorial no se utiliza en  **Google Cardboard**.
 
 ## Parte II: video
 
@@ -273,12 +299,21 @@ dependencies {
 }
 {% endhighlight %}
 
-Seguimos los pasos de Agregar al **GorillaFragment.java** los componentes de video.
+Seguimos los pasos de Agregar al **GorillaFragment.java** los componentes de video:
 
+El resultado es la posibilidad de ver el Video 360 dentro de la App.
+
+La siguiente imagen no le hace justicia al resultado, pero es un video 360 donde el Gorilla y su cria se mueven por la pantalla. Además de que desde nuestra perspectiva podemos ver todo el entorno en los 360 de ese bosque:
+
+![importacion paso1 screenshot](/assets/post_008_img13.png){: .center-image }
+
+En este punto vamos a dar por cerrado el post, con la sensación de que aún queda mucho mas por aprender de los videos 360 y la realidad virtual. Aunque también, a través de los pasos recorridos en este post, y las dificultades técnicas que se presentaron, pudimos aprender al menos algunas cosas interesantes sobre estos temas.
 
 ## Next Steps
 
-Ver el siguiente conversor de Google Api para realidad virtual [google-api-vr-link](https://storage.googleapis.com/cardboard-camera-converter/index.html){: target="new"}
+- Ver el siguiente conversor de Google Api para realidad virtual [google-api-vr-link](https://storage.googleapis.com/cardboard-camera-converter/index.html){: target="new"}
+
+- Ver los ejemplos de [Google VR for Android](https://developers.google.com/vr/android/samples/vrview){: target="new2"}
 
 
 
