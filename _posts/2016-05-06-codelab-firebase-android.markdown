@@ -23,7 +23,7 @@ Directorios de trabajo:
 
 Clonamos el proyecto:
 
-{% highlight git %} $ git clone <https://github.com/firebase/friendlychat> {% endhighlight %}
+{% highlight git %} $ git clone https://github.com/firebase/friendlychat {% endhighlight %}
 
 {% include google-adsense.html %}<br>
 

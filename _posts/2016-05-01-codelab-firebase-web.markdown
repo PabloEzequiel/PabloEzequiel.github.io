@@ -20,7 +20,7 @@ Directorio de trabajo:
 
 Clonamos el proyecto:
 
-{% highlight git %} $ git clone <https://github.com/firebase/friendlychat> {% endhighlight %}
+{% highlight git %} $ git clone https://github.com/firebase/friendlychat {% endhighlight %}
 
 Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
 

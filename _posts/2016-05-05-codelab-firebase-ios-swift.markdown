@@ -25,7 +25,7 @@ Directorio de trabajo:
 
 Clonamos el proyecto:
 
-{% highlight git %} $ git clone <https://github.com/firebase/friendlychat> {% endhighlight %}
+{% highlight git %} $ git clone https://github.com/firebase/friendlychat {% endhighlight %}
 
 Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
 
@@ -51,7 +51,10 @@ Para instalar Cocoa. tengo que ejecutar:
 
 Vamos al directorio **ios-starter/swift-starter** y ejecutamos **pod update**
 
-{% highlight bash %} $ pwd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/firebase/friendlychat $ cd ios-starter/swift-starter $ pwd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/firebase/friendlychat/ios-starter/swift-starter {% endhighlight %}
+{% highlight bash %}
+ $ pwd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/firebase/friendlychat
+ $ cd ios-starter/swift-starter
+ $ pwd /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/googlesamples/firebase/friendlychat/ios-starter/swift-starter {% endhighlight %}
 
 Luego ejecutamos según el Codelab
 
@@ -59,13 +62,19 @@ Luego ejecutamos según el Codelab
 
 Me dio el siguiente error:
 
-{% highlight bash %} $ pod update
+{% highlight bash %}
+$ pod update
 
-[!] Unable to add a source with url `https://github.com/CocoaPods/Specs.git` named `master`. You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`. {% endhighlight %}
+[!] Unable to add a source with url `https://github.com/CocoaPods/Specs.git` named `master`.
+ You can try adding it manually in `~/.cocoapods/repos` or via `pod repo add`.
+ {% endhighlight %}
 
 Lo cual solucioné, ejecutando manualmente el Git con lo siguiente:
 
-{% highlight bash %} $ cd ~/.cocoapods/repos $ git clone <https://github.com/CocoaPods/Specs.git> master {% endhighlight %}
+{% highlight bash %}
+ $ cd ~/.cocoapods/repos
+ $ git clone https://github.com/CocoaPods/Specs.git master
+{% endhighlight %}
 
 Con lo que finalemnte anduvo ok, ejecutado dentro del directorio **... friendlychat/ios-starter/swift-starter**
 
@@ -73,17 +82,22 @@ Con lo que finalemnte anduvo ok, ejecutado dentro del directorio **... friendlyc
 
 Los paquetes que instalo, son los enumerados en **Podfile**
 
-{% highlight bash %} $ cat Podfile
+{% highlight bash %}
+$ cat Podfile
 
 # FriendlyChat Codelab
 
 use_frameworks! platform :ios, '7.0'
 
-pod 'Firebase/Storage' pod 'Firebase/AdMob' pod 'Firebase/Auth' pod 'Firebase/Crash' pod 'Firebase/Database'
-
+pod 'Firebase/Storage'
+pod 'Firebase/AdMob'
+pod 'Firebase/Auth'
+pod 'Firebase/Crash'
+pod 'Firebase/Database'
 pod 'Firebase/RemoteConfig'
 
-target 'FriendlyChatSwift' do end {% endhighlight %}
+target 'FriendlyChatSwift' do end
+{% endhighlight %}
 
 Con este paso, sabemos que cumplimos con el primer **requerimiento** de tener instaldo **Cocoa** y **CocoaPod**
 
@@ -202,6 +216,11 @@ También están las imágenes subidas como adjuntos:
 
 ![Codelab FriendlyChat Swift finalizado](/assets/post_012_img12_swift.png)
 
-## Links
+De esta manera, damos por cerrado el post.
+
+
+
+
+
 
 [firebase-links-rapidos]: https://firebase.google.com/docs/samples/#ios

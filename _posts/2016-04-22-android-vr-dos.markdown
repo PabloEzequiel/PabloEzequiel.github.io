@@ -20,7 +20,8 @@ Directorio de trabajo:
 
 Ejecutamos el código:
 
-{% highlight bash %} $ git clone <https://github.com/googlevr/gvr-android-sdk.git> {% endhighlight %}
+
+{% highlight bash %} $ git clone https://github.com/googlevr/gvr-android-sdk.git {% endhighlight %}
 
 # Paso 01: Descargar Google VR SDK
 

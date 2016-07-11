@@ -27,7 +27,9 @@ Directorio de trabajo, en nuestra PC utilizaremos la carpeta:
 
 Clonamos al proyecto:
 
-{% highlight bash %} $ git clone <https://github.com/googlesamples/android-play-billing.git> {% endhighlight %}
+{% highlight bash %}
+$ git clone https://github.com/googlesamples/android-play-billing.git
+ {% endhighlight %}
 
 # Ejecutamos al proyecto con Android Studio
 
@@ -37,7 +39,8 @@ Probamos levantar la app y nos da una excepcion de claves y keystores:
 
 {% highlight bash %}
 
-Process: com.example.android.trivialdrivesample, PID: 2295 java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.android.trivialdrivesample/com.example.android.trivialdrivesample.MainActivity}: java.lang.RuntimeException: Please put your app's public key in MainActivity.java.
+Process: com.example.android.trivialdrivesample,
+PID: 2295 java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.android.trivialdrivesample/com.example.android.trivialdrivesample.MainActivity}: java.lang.RuntimeException: Please put your app's public key in MainActivity.java.
 
 {% endhighlight %}
 

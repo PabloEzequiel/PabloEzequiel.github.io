@@ -26,7 +26,7 @@ Directorio de trabajo:
 
 Clonamos el proyecto de:
 
-{% highlight git %} $ git clone <https://github.com/googlesamples/google-services> {% endhighlight %}
+{% highlight git %} $ git clone https://github.com/googlesamples/google-services {% endhighlight %}
 
 # Paso 01: Abrir con Adndroid Studio
 
@@ -38,7 +38,13 @@ Abrimos la aplicación
 
 Observamos que con la primera compilación, nos aparece el siguiente error, producto la aplicación no está integrada aún a los servicios de Google:
 
-{% highlight bash %} File google-services.json is missing. The Google Services Plugin cannot function without it. Searched Location: /.../GitHub-tmp/googlesamples/google-services/android/signin/app/src/debug/google-services.json /.../GitHub-tmp/googlesamples/google-services/android/signin/app/google-services.json {% endhighlight %}
+{% highlight bash %}
+File google-services.json is missing.
+The Google Services Plugin cannot function without it.
+Searched Location:
+ /.../GitHub-tmp/googlesamples/google-services/android/signin/app/src/debug/google-services.json
+ /.../GitHub-tmp/googlesamples/google-services/android/signin/app/google-services.json
+ {% endhighlight %}
 
 Para solucionar esto, debemos generar un archivo de configruación llamado **_google-services.json_**
 
@@ -79,19 +85,43 @@ d) Repasando el comando **keytool** con algunos ejemplos básicos, en las distin
 
 **Listando el certificado con keytool -list**: (Se puede agregar -v de verbose):
 
-{% highlight bash %} $ keytool -list -keystore ~/.android/debug.keystore Introduzca la contraseña del almacén de claves:
+{% highlight bash %}
+$ keytool -list -keystore ~/.android/debug.keystore
+Introduzca la contraseña del almacén de claves:
 
-Tipo de Almacén de Claves: JKS Proveedor de Almacén de Claves: SUN
+Tipo de Almacén de Claves: JKS
+Proveedor de Almacén de Claves: SUN
 
 Su almacén de claves contiene 1 entrada
 
-androiddebugkey, 14/08/2015, PrivateKeyEntry, Huella Digital de Certificado (SHA1): 2D:ED:D2:B0:75:55:79:AD:4D:C3.......... {% endhighlight %}
+androiddebugkey,
+14/08/2015, PrivateKeyEntry,
+Huella Digital de Certificado
+(SHA1): 2D:ED:D2:B0:75:55:79:AD:4D:C3..........
+{% endhighlight %}
 
 Acabamos de ver el contenido del keystore. Vamos a ejectar la variante que nos sugieren en el **CodeLab**: Donde también nos muestra la clave **SHA-1**:
 
-{% highlight bash %} keytool -exportcert -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore IIntroduzca la contraseña del almacén de claves:
+{% highlight bash %}
+$ keytool -exportcert -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore
+Introduzca la contraseña del almacén de claves:
 
-Nombre de Alias: androiddebugkey Fecha de Creación: 14/08/2015 Tipo de Entrada: PrivateKeyEntry Longitud de la Cadena de Certificado: 1 Certificado[1]: Propietario: CN=Android Debug, O=Android, C=US Emisor: CN=Android Debug, O=Android, C=US Número de serie: 55...... Válido desde: Fri Aug 14 11:35:56 ART 2015 hasta: Sun Aug 06 11:35:56 ART 2045 Huellas digitales del Certificado: MD5: BF:54:E4:97:24:4F:F2............ SHA1: 2D:ED:D2:B0:75:55:79:AD:4D:C3.......... SHA256: 0F:B1:56:59:FA:B4:D3........................ Nombre del Algoritmo de Firma: SHA1withRSA Versión: 3 {% endhighlight %}
+Nombre de Alias: androiddebugkey
+
+Fecha de Creación: 14/08/2015
+Tipo de Entrada: PrivateKeyEntry L
+ongitud de la Cadena de Certificado: 1 Certificado
+[1]: Propietario: CN=Android Debug, O=Android, C=US
+Emisor: CN=Android Debug, O=Android, C=US
+Número de serie: 55......
+ Válido desde: Fri Aug 14 11:35:56 ART 2015 hasta: Sun Aug 06 11:35:56 ART 2045
+  Huellas digitales del Certificado:
+  MD5: BF:54:E4:97:24:4F:F2............
+  SHA1: 2D:ED:D2:B0:75:55:79:AD:4D:C3..........
+  SHA256: 0F:B1:56:59:FA:B4:D3........................
+ Nombre del Algoritmo de Firma: SHA1withRSA
+ Versión: 3
+ {% endhighlight %}
 
 {% include google-adsense.html %}<br>
 
