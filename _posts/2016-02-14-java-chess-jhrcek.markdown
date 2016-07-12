@@ -3,7 +3,8 @@ layout: post
 comments: false
 title: 'GitHub: Chess Java de jhrcek'
 date: '2016-02-13 19:08:44 -0300'
-categories: Chess GitHub JAva
+categories: Chess GitHub Java
+comments: true
 ---
 
 Vamos a ver un proyecto de Java relacionado al ajedrez [Chess java][github-chess-001-java]{:target="chess003"}

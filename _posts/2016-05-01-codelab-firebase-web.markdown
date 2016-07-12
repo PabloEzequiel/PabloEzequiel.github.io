@@ -4,6 +4,7 @@ comments: false
 title: ¿Como utilizar Firebase con la Web? FriendlyChat App (WIP)
 date: '2016-05-01 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android Firebase WEB FriendlyChat
+comments: true
 ---
 
 Desde que vi los videos del Google I/0 2016, me llamó la atención las posibilidades de Firebase: Fué uno de los productos destacados del Google I/O. Nosotros como desarrolladores: ¿Como podemos sacarle provecho?¿De que forma se configura?¿Que se puede hacer con el uso gratuito de la plataforma?

@@ -4,6 +4,7 @@ comments: false
 title: ¿Cómo funciona la Realidad Virtual (VR) en Android?
 date: '2016-04-20 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android VR VirtualReality
+comments: true
 ---
 
 Vamos seguir el ejercicio [CodeLab de GoogleSamples de Realidad Virtual (VR)][google-android-vr-codelab]{:target="new"} para entender como funciona la VR en Android y responder preguntas como:
@@ -39,7 +40,7 @@ $ git clone https://github.com/googlecodelabs/vr_view_app_101.git
 Cloning into 'vr_view_app_101'...
 
 remote: Counting objects: 94, done.
-remote: Total 94 (delta 0), reused 0 (delta 0), pack-reused 94 
+remote: Total 94 (delta 0), reused 0 (delta 0), pack-reused 94
 Unpacking objects: 100% (94/94), done.
 Checking connectivity... done.
 

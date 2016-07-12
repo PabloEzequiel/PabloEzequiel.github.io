@@ -11,7 +11,9 @@
       <div class="wrapper">
         {{ content }}
 
-        {% include disqus.html %}  
+        {% if site.disqus and page.comments %}
+            {% include disqus.html %}
+        {% endif %}
       </div>
 
     </div>

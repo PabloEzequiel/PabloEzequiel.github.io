@@ -4,6 +4,7 @@ comments: false
 title: ¿Que nos ofrece el 'Google VR SDK' para Android?
 date: '2016-04-22 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android VR VirtualReality
+comments: true
 ---
 
 El [Google VR SDK](https://developers.google.com/vr/android/download){:target="new"} nos abre las puertas al desarrollo de aplicaciones para Realidad Virtual, Google Cardboard y seguramente muchas otras cosas mas...

@@ -3,7 +3,8 @@ layout: post
 comments: false
 title: 'GitHub: chess ITLA raydelto'
 date: '2016-02-13 19:08:44 -0300'
-categories: Chess GitHub JAva
+categories: Chess GitHub Java
+comments: true
 ---
 
 Vamos a ver los proyecto de [Chess de raydelto para ITLA](https://github.com/raydelto/itla_chess_client_android.git){:target="chess003"}. Tiene varios repositorios, ya que parece ser un server y distintos tipos de clientes (java, android, ios, etc)

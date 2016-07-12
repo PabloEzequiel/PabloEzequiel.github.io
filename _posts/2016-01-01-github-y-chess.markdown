@@ -3,6 +3,7 @@ layout: post
 title: GitHub y Chess
 date: '2016-01-01 23:08:44 -0300'
 categories: GitHub Chess
+comments: true
 ---
 
 En esta pagina de Jekyll vamos a comenzar comentado pruebas con los proyectos de GitHub asociados al Ajedrez.

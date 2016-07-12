@@ -4,6 +4,7 @@ comments: false
 title: ¿Como funciona la 'Google Identity Platform' en Android?
 date: '2016-05-15 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android Google-Services
+comments: true
 ---
 
 Vamos a seguir un CodeLab vinculado a **Google Identity Platform** que se enseña a utilizar algunos **google-services** para **autenticarse** a través del perfil, o la cuenta de Google.

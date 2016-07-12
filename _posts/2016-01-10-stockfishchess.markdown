@@ -4,6 +4,7 @@ comments: false
 title: GitHub y Stockfish Chess
 date: '2016-01-10 19:08:44 -0300'
 categories: Chess GitHub Stockfish Android
+comments: true
 ---
 
 Vamos a hacer algunos comentarios sobre **Stockfish** en GitHub. Tomemos un ejemplo: [Stockfishchess][github-chess-000-stockfish]{:target="chess000"}

@@ -4,6 +4,7 @@ comments: false
 title: ¿Como utilizar Firebase con iOS (Obj-C)? FriendlyChat App
 date: '2016-05-04 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android Firebase iOS  Objective-c FriendlyChat
+comments: true
 ---
 
 Continuado con la intención de seguir los CodeLab de Firebase, vamos dedicar este post a compentar las experiencias con el CodeLab de Firebase para iOS. Este post es la versión de Objecti-c
