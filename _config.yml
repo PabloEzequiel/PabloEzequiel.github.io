@@ -18,6 +18,10 @@ github_username:  PabloEzequiel
 
 # Build settings
 markdown: kramdown
+disqus: pabloeze
+google_analytics: UA-80442403-1
+title: PabloEzequiel en GitHub
+
 
 #Disquis
 #https://help.disqus.com/customer/en/portal/articles/472138-jekyll-installation-instructions
