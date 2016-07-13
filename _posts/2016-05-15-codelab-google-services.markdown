@@ -27,7 +27,7 @@ Directorio de trabajo:
 
 Clonamos el proyecto de:
 
-{% highlight git %} $ git clone https://github.com/googlesamples/google-services {% endhighlight %}
+{% highlight bash %} $ git clone https://github.com/googlesamples/google-services {% endhighlight %}
 
 # Paso 01: Abrir con Adndroid Studio
 
