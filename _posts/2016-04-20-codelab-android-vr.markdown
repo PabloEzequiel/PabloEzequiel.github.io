@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Cómo funciona la Realidad Virtual (VR) en Android?
 date: '2016-04-20 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android VR
+categories: CodeLab GoogleSamples Android VR VirtualReality
 comments: true
 ---
 

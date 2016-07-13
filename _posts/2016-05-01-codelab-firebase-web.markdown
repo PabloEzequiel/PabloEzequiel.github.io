@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Como utilizar Firebase con la Web? FriendlyChat App (WIP)
 date: '2016-05-01 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android Firebase
+categories: CodeLab GoogleSamples Android Firebase WEB FriendlyChat
 comments: true
 ---
 

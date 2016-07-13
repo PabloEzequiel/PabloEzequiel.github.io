@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Que nos ofrece el 'Google VR SDK' para iOS?
 date: '2016-04-22 19:08:44 -0300'
-categories: CodeLab GoogleSamples iOS VR
+categories: CodeLab GoogleSamples iOS VR VirtualReality
 comments: true
 ---
 

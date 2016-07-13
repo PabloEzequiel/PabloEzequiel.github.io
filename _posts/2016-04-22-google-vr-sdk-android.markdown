@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Que nos ofrece el 'Google VR SDK' para Android?
 date: '2016-04-22 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android VR
+categories: CodeLab GoogleSamples Android VR VirtualReality
 comments: true
 ---
 

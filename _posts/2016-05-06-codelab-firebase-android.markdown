@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Como utilizar Firebase con Android? FriendlyChat App
 date: '2016-05-06 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android Firebase Android
+categories: CodeLab GoogleSamples Android Firebase Android FriendlyChat
 comments: true
 ---
 
