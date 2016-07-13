@@ -1,6 +1,6 @@
 # PabloEzequiel.github.io
 
-[https://pabloezequiel.github.io](https://pabloezequiel.github.io){:target="pi"}
+[https://pabloezequiel.github.io](https://pabloezequiel.github.io)
 
 Pagina Github de PabloEzequiel
 
