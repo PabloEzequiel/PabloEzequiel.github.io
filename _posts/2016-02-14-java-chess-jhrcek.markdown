@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: 'GitHub: Chess Java de jhrcek'
 date: '2016-02-13 19:08:44 -0300'
-categories: Chess GitHub Java
+categories: Chess GitHub
 comments: true
 ---
 

@@ -1,27 +1,43 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Pablo Ezequiel en GitHub
-email: http://www.probarnocuestanada.com
-description: > # this means to ignore newlines until "baseurl:"
-  Comentarios y pruebas sobre distintos proyectos de GitHub
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.probarnocuestanada.com" # the base hostname & protocol for your site
-twitter_username: no_cuestanada
-github_username:  PabloEzequiel
-
-# Build settings
+paginate: 12 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+#highlighter: pygments
 markdown: kramdown
 disqus: pabloeze
 google_analytics: UA-80442403-1
 title: PabloEzequiel en GitHub
 
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Pablo Ezequiel
 
-#https://help.disqus.com/customer/en/portal/articles/472138-jekyll-installation-instructions
-#comments: true
+description: Pablo Ezequiel en GitHub
+author:
+  name: PabloEzequiel
+  web: www.probarnocuestanada.com
+  email: www.probarnocuestanada.com
+  github: PabloEzequiel
+  twitter: no_cuestanada
+  pinterest: nocuestanada
+  tumblr: probarnocuestanada
+#  linkedin: asd123
+  bio: Just another dev in GitHub
+  email_md5: 766641beacc3319fc388d41872986871
+
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate

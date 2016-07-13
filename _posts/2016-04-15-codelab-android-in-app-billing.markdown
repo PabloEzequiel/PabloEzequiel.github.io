@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Como funciona 'In-app Billing' en Android?
 date: '2016-04-10 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android In-app Billing
+categories: CodeLab GoogleSamples Android Billing
 comments: true
 ---
 

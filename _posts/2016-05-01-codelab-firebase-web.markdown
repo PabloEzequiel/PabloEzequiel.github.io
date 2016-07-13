@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Como utilizar Firebase con la Web? FriendlyChat App (WIP)
 date: '2016-05-01 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android Firebase WEB FriendlyChat
+categories: CodeLab GoogleSamples Android Firebase
 comments: true
 ---
 
@@ -105,9 +105,9 @@ Veamos el resultado:
 
 {% highlight bash %}
 
-MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ sudo rm -rf /usr/local/lib/node_modules Password: MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ sudo rm -rf ~/.npm MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ brew uninstall node Uninstalling /usr/local/Cellar/node/6.2.2... (3,771 files, 38.7M)
+$ sudo rm -rf /usr/local/lib/node_modules Password: $ sudo rm -rf ~/.npm $ brew uninstall node Uninstalling /usr/local/Cellar/node/6.2.2... (3,771 files, 38.7M)
 
-MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ brew install node --without-npm ==> Installing dependencies for node: xz, pkg-config ==> Installing node dependency: xz ==> Downloading <https://homebrew.bintray.com/bottles/xz-5.2.2.el_capitan.bottle.tar.gz>
+$ brew install node --without-npm ==> Installing dependencies for node: xz, pkg-config ==> Installing node dependency: xz ==> Downloading <https://homebrew.bintray.com/bottles/xz-5.2.2.el_capitan.bottle.tar.gz>
 
 ## ################################################################## 100.0%
 
@@ -127,7 +127,7 @@ MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ brew install node --withou
 
 /usr/local/lib/dtrace/node.d ==> Caveats Homebrew has NOT installed npm. If you later install it, you should supplement your NODE_PATH with the npm module folder: /usr/local/lib/node_modules Please note by default only English locale support is provided. If you need full locale support you should either rebuild with full icu: `brew reinstall node --with-full-icu` or add full icu data at runtime following: <https://github.com/nodejs/node/wiki/Intl#using-and-customizing-the-small-icu-build> ==> Summary 🍺 /usr/local/Cellar/node/6.2.2: 143 files, 27.3M, built in 8 minutes 58 seconds
 
-MacBook-Pro-de-Pablo:PabloEzequiel.github.io pabloin$ {% endhighlight %}
+$ {% endhighlight %}
 
 Después de casi 9 minutos que duró la instalación del último paso, podemos continuar con el siguiente:
 

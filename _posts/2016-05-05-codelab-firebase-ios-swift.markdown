@@ -3,7 +3,7 @@ layout: post
 comments: false
 title: ¿Como utilizar Firebase con iOS (swift)? FriendlyChat App
 date: '2016-05-05 19:08:44 -0300'
-categories: CodeLab GoogleSamples Android Firebase iOS swift FriendlyChat
+categories: CodeLab GoogleSamples Android Firebase iOS swift
 comments: true
 ---
 
