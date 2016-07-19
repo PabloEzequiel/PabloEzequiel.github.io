@@ -4,6 +4,8 @@ title: GitHub y Chess
 date: '2016-01-01 23:08:44 -0300'
 categories: GitHub Chess
 comments: true
+# permalink: 2016-01-01-github-y-chess.html
+permalink: github/chess/2016/01/02/github-y-chess.html
 ---
 
 En esta pagina de Jekyll vamos a comenzar comentado pruebas con los proyectos de GitHub asociados al Ajedrez.

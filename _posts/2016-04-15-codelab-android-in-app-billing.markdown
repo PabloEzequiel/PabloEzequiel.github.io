@@ -5,6 +5,7 @@ title: ¿Como funciona 'In-app Billing' en Android?
 date: '2016-04-10 19:08:44 -0300'
 categories: CodeLab GoogleSamples Android In-app Billing
 comments: true
+permalink: codelab/googlesamples/android/in-app/billing/2016/04/10/codelab-android-in-app-billing.html
 ---
 
 Veamos como se implementan las [Compras in-app o In-App Billing](https://developer.android.com/google/play/billing/billing_integrate.html){:target="inapp1"} en Android. Para esto, vamos a seguir el [CodeLab](https://developer.android.com/training/in-app-billing/preparing-iab-app.html){:target="inapp2"} con su [repositorio GitHub](https://github.com/googlesamples/android-play-billing/tree/master/TrivialDrive){:target="ds"}

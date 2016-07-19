@@ -5,6 +5,8 @@ title: 'GitHub: Android Chess de jcarolus'
 date: '2016-03-03 19:08:44 -0300'
 categories: Chess GitHub Stockfish Android
 comments: true
+# permalink: chess/github/stockfish/android/2016/03/03/android-chess-jcarolus.html
+permalink: chess/github/stockfish/android/2016/03/03/android-chess-jcarolus.html
 ---
 
 Vamos a comentar los exitos y fracasos de trabajar con el proyecto [Android Chess][github-chess-005-android-chess]{:target="chess005"}

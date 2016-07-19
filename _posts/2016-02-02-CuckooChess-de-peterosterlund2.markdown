@@ -5,6 +5,8 @@ title: 'GitHub: CuckooChess de peterosterlund2'
 date: '2016-02-01 19:08:44 -0300'
 categories: Chess GitHub Stockfish Android
 comments: true
+# permalink: 2016-02-02-CuckooChess-de-peterosterlund2.html
+permalink: chess/github/stockfish/android/2016/02/01/CuckooChess-de-peterosterlund2.html
 ---
 
 Vamos a comentar nuestra experiencia con el proyecto [cuckoochess de peterosterlund2][github-chess-001-cuckoochess]{:target="chess001"}
