@@ -1,9 +1,14 @@
 # PabloEzequiel.github.io
 
-Cambio de Theme
+[https://pabloezequiel.github.io](https://pabloezequiel.github.io)
 
-Pagina Github de PabloEzequiel
+PabloEzequiel en Github:
 
-Post sobre las pruebas, éxitos y fracasos al compilar varios proyectos de GitHub que me interesen.
+Comentarios sobre éxitos y fracasos al compilar y probar proyectos de GitHub que por alguna razón me interesen...
 
-Las primeras pruebas son sobre los proyectos relacionados al Ajedrez, un juego que amo.
+En principio, los temas sobre los que me interesan realizar pruebas son:
+
+- Proyectos relacionados al Ajedrez, un juego que amo.
+- CodeLabs de Google orienatdos a aplicaciones móbiles
+- Ejercicios sobre Android y iOS
+- Ejercicios sobre Firebase
