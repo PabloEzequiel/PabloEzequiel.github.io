@@ -28,7 +28,7 @@ Android NDK son ejemplos de utilización de codigo nativo.
 
 Observemos que googlesamples nos ofrece varios ejemplos desde GitHub. Estamos tomando la rama **master** porque nos interesa utilizar al graddle experimental.
 
-![importacion paso1 screenshot](/assets/post_005_googlesamples_android_ndk.png)
+![importacion paso1 screenshot](/assets/images/2016_04_01/post_005_googlesamples_android_ndk.png)
 
 {% include google-adsense.html %}<br>
 
@@ -40,33 +40,33 @@ Seguimos las indicaciones de <https://github.com/googlesamples/android-ndk/tree/
 
 Además, podemos consultar al siguiente **Codelab** de Google que explica un proyecto practicamente indentico: [Codelab de Google Andoir JNI y NDK][google-codelab-link1]{:target="g1"}.
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img2.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img2.png)
 
 En el Android Studio, abrimos **Open File/Project Structure...** y **Select NDK location:**
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img3.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img3.png)
 
 Hacemos Click en **Sync Project with Gradle Files** y luego en **Run 'app'**
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img4.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img4.png)
 
 Veamos los componentes clave del proyecto:
 
 La clase Java
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img5.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img5.png)
 
 El objeto hello-jni.c
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img6.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img6.png)
 
 Y ademas el script de graddle experimental:
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img7.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img7.png)
 
 Vemos que el texto "Hello JNI" es tomado desde la funcion nativa:
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img8.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img8.png)
 
 {% include google-adsense.html %}<br>
 
@@ -125,7 +125,7 @@ public native String  sayHelloFromJNI(String name);
 
 Para la cual el compilador nos data la posibilidad de corregirlo:
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img9.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img9.png)
 
 Con el asistente del Android Studio podemos implementar el método:
 
@@ -153,11 +153,11 @@ return (*env)->NewStringUTF(env, buf_rta);
 
 Veamos el **IDE**:
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img10.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img10.png)
 
 Y el resultado de la ejecución:
 
-![Ejemplo App Android NDK y JNI screenshot](/assets/post_005_img11.png)
+![Ejemplo App Android NDK y JNI screenshot](/assets/images/2016_04_01/post_005_img11.png)
 
 De esta forma, podemos cerrar el post, donde utilizando el proyecto de GitHub **hello-jni**, pudimos agregar un nuevo método JNI que utiliza la plataforma NDK.
 

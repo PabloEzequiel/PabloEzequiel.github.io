@@ -28,17 +28,17 @@ Author: **peterosterlund2**
 
 Intentaremos compilar **DroidFish** con el **Android Studio**. Tiene dependencia con CuckooChess.
 
-![importacion paso1 screenshot](/assets/post_001_droidfish00000.png)
+![importacion paso1 screenshot](/assets/images/2016_02_10/post_001_droidfish00000.png)
 
-![importacion paso2 screenshot](/assets/post_001_droidfish00001.png)
+![importacion paso2 screenshot](/assets/images/2016_02_10/post_001_droidfish00001.png)
 
 Después de la adaptación de Eclipse ADT a Android Studio, es necesario bajar el Android NDK
 
-![importacion paso2 screenshot](/assets/post_001_droidfish00002.png)
+![importacion paso2 screenshot](/assets/images/2016_02_10/post_001_droidfish00002.png)
 
 Y ahora tenemos el siguiente problema de compilación/dependencia: Error:(40, 23) Lzma86Enc.h: No such file or directory
 
-![importacion paso2 screenshot](/assets/post_001_droidfish00003.png)
+![importacion paso2 screenshot](/assets/images/2016_02_10/post_001_droidfish00003.png)
 
 Estos errores no los logor solucionar, con lo cual cierro en este punto el post. Pero afortunamente, en el siguiente intento pude compilar y ejecutar tos los proyectos de DroidFish en GitHub, utilizando el eclipse en vez del Android Studio:
 

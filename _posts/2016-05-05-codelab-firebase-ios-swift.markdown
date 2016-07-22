@@ -31,7 +31,7 @@ Clonamos el proyecto:
 
 Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
 
-![Firebase screenshot](/assets/post_012_img1.png)
+![Firebase screenshot](/assets/images/2016_05_05/post_012_img1.png)
 
 En este post, utilizamos los de swift: **swift** y **swift-starter**
 
@@ -107,11 +107,11 @@ Con este paso, sabemos que cumplimos con el primer **requerimiento** de tener in
 
 Con el Xcode abrimos el proyecto **FriendlyChatSwift.xcworkspace**:
 
-![Codelab FriendlyChat Swift](/assets/post_012_img5_sw.png)
+![Codelab FriendlyChat Swift](/assets/images/2016_05_05/post_012_img5_sw.png)
 
 Que nos permite abrir y compilar la aplicación:
 
-![FCodelab FriendlyChat Swift](/assets/post_012_img6_sw.png)
+![FCodelab FriendlyChat Swift](/assets/images/2016_05_05/post_012_img6_sw.png)
 
 {% include google-adsense.html %}<br>
 
@@ -121,47 +121,47 @@ El proyecto **FriendlyChat** de Firebase ya lo había creado cuando segui el [Co
 
 El proyecto **FriendlyChat** estaba creado:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_01.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_01.png)
 
 Seleccionamos iOS integración.
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_02.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_02.png)
 
 Agrgamos el bundle y el ID:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_03.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_03.png)
 
 Teneoms que copiar el **GoogleService-Info.plist** dentro del Xcode:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_04.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_04.png)
 
 El siguiente paso, por ahora no lo ejecutamos:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_05.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_05.png)
 
 Continuamos con el copiado del archivo **GoogleService-Info.plist** al Xcode:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_06.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_06.png)
 
 El archivo esta agregado:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_07.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_07.png)
 
 Chequear que esté el **import Firebase** en AppDelegate.swift, FCViewController.swift:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_08.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_08.png)
 
 Esta el import en **FCViewController.swift**
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_09.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_09.png)
 
 Y tenemos que agregar la siguiente linea de codigo en **AppDelegate.swift** que configura Firebase, siguendo lo que dice en: **GoogleService-Info.plist** a
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_10.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_10.png)
 
 ¿Podemos finalizar el wizard que había quedado pendiente en Firebase? ... si, podemos:
 
-![Codelab FriendlyChat Swift Vincular Proeycto](/assets/post_012_img7_swift_05b.png)
+![Codelab FriendlyChat Swift Vincular Proeycto](/assets/images/2016_05_05/post_012_img7_swift_05b.png)
 
 De esta forma vemos que en Firebase tenemos el registro de la aplicación de iOS
 
@@ -175,17 +175,17 @@ En la consola de Firebse, agregamos las restricciones:
 
 Vamos a la sección de Database:
 
-![Codelab FriendlyChat Swift Firebase Database](/assets/post_012_img8_swift_1.png)
+![Codelab FriendlyChat Swift Firebase Database](/assets/images/2016_05_05/post_012_img8_swift_1.png)
 
 Las reglas (y el simulador):
 
-![Codelab FriendlyChat Swift Firebase Database](/assets/post_012_img8_swift_2.png)
+![Codelab FriendlyChat Swift Firebase Database](/assets/images/2016_05_05/post_012_img8_swift_2.png)
 
 ## Paso 06: Firebase Authentication
 
 De nuevo, vamos a la consola de Firebase para configurar la autenticación, pero habilitamos autenticación por mail (recordemos que en el [CodeLab de la parte web]({% post_url 2016-05-01-codelab-firebase-web %}){:target="new"} la autenticación fué por Google):
 
-![Codelab FriendlyChat Swift Firebase Database](/assets/post_012_img9_swift.png)
+![Codelab FriendlyChat Swift Firebase Database](/assets/images/2016_05_05/post_012_img9_swift.png)
 
 agregamos el pod 'FirebaseAuth'
 
@@ -203,7 +203,7 @@ Lo unico que tenemos que ajustar son dos cosas: **GoogleService-Info.plist** y l
 
 Y vemos el resultado, que efectivamente la aplicación levanta:
 
-![Codelab FriendlyChat Swift finalizado](/assets/post_012_img10_swift.png)
+![Codelab FriendlyChat Swift finalizado](/assets/images/2016_05_05/post_012_img10_swift.png)
 
 Se ve en la aplicación finalzada,
 
@@ -212,11 +212,11 @@ Se ve en la aplicación finalzada,
 
 Observemos como parte de los chats ingresados, quedan cargados dentro de la plataforma Firebase:
 
-![Codelab FriendlyChat Swift finalizado](/assets/post_012_img11_swift.png)
+![Codelab FriendlyChat Swift finalizado](/assets/images/2016_05_05/post_012_img11_swift.png)
 
 También están las imágenes subidas como adjuntos:
 
-![Codelab FriendlyChat Swift finalizado](/assets/post_012_img12_swift.png)
+![Codelab FriendlyChat Swift finalizado](/assets/images/2016_05_05/post_012_img12_swift.png)
 
 De esta manera, damos por cerrado el post.
 

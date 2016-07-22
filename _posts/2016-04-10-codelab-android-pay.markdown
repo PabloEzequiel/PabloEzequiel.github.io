@@ -37,17 +37,17 @@ Creamos el proyeto Android, y luego seguimos la mayoría de los pasos del [CodeL
 
 El resultado, después de 40 minutos, es el poryecto practimanete finalizado, como se ve en la imagen a continuación, donde se ejecutó el emulador, con el botón de Android Pay:
 
-![importacion paso1 screenshot](/assets/post_007_img3.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_10/post_007_img3.png){: .center-image }
 
 Cuando presionamos el botón de **Android Pay** del Emulador, la prierma vez, en nuestro caso, nos solicita que asociemos la cuenta de Google al emulador:
 
-![importacion paso1 screenshot](/assets/post_007_img4.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_10/post_007_img4.png){: .center-image }
 
 Después de Agregar la cuenta, nuevamente presionamos el botón de **Android Pay** del Emulador y obtenermos el siguiente mensaje de error:
 
 **_"To make purchase using Android Pay, please setup your card in android pay app"_**
 
-![importacion paso1 screenshot](/assets/post_007_img5.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_10/post_007_img5.png){: .center-image }
 
 ¿Como debería continuar? Hay una [pregunta similar el stackoverflow](http://stackoverflow.com/questions/34306835/android-pay-error){:target="stk"}
 

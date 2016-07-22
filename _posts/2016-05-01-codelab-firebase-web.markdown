@@ -26,7 +26,7 @@ Clonamos el proyecto:
 
 Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
 
-![Firebase screenshot](/assets/post_012_img1.png)
+![Firebase screenshot](/assets/images/2016_05_05/post_012_img1.png)
 
 En este post, utilizamos los de **web** y **web-start**
 
@@ -40,19 +40,19 @@ Y de aquí vamos a [Firebase](https://www.firebase.com/){:target="fb"}. En mi ca
 
 Sigueindo al CodeLab, denominamos al proyecto **FriendlyChat** dentro de la consola de **Firebase**
 
-![Firebase screenshot](/assets/post_009_img1.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img1.png)
 
 Una vez creado el pryecto, vemos la siguiente pantalla de Firebase:
 
-![Firebase screenshot](/assets/post_009_img2.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img2.png)
 
 Y después de presionar el boton de Firebase </> tenemos el código para Añadir **_Firebase a nuestra aplicación web_**
 
-![Firebase screenshot](/assets/post_009_img3.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img3.png)
 
 Agregamos del snippet de **Firebase Console > Overview > Add Firebase to your web app**
 
-![Firebase screenshot](/assets/post_009_img4.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img4.png)
 
 {% include google-adsense.html %}<br>
 
@@ -60,7 +60,7 @@ Agregamos del snippet de **Firebase Console > Overview > Add Firebase to your we
 
 Ahora debemos habilitar el **Google Sign In** en lai izquierda dentro de AUTH
 
-![Firebase screenshot](/assets/post_009_img5.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img5.png)
 
 {% include google-adsense.html %}<br>
 
@@ -74,11 +74,11 @@ Basicamwente nos permite centrarnos mas en las construicción de nuestra aplicac
 
 Seguimos los pasos:
 
-![Firebase screenshot](/assets/post_009_img6.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img6.png)
 
 y
 
-![Firebase screenshot](/assets/post_009_img7.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img7.png)
 
 Y para hacer la instalación ejecutamos
 
@@ -172,7 +172,7 @@ Ok.... Y ahora, después de todo lo que trabajamos, deberíamos (por fin!), pode
 
 Mostramos la imagen con el resultado de la instalación de **firebase-tools**
 
-![Firebase screenshot](/assets/post_009_img5.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img5.png)
 
 Verificamos la instalación
 
@@ -186,7 +186,7 @@ Excelente, con el Firebase CLI instalado ok, vamos al siguente paso:
 
 Logramos finalizar el paso de **$ npm install -g firebase-tools** y el paso siguiente se muestra en la siguiente imagen:
 
-![Firebase screenshot](/assets/post_009_img9.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img9.png)
 
 Pero quisiera agregar un comentario de algo que me llamó mucho la atención:
 
@@ -202,39 +202,39 @@ Luego, veamos los resultados de ejecutar los comandos de Firebase:
 
 Ejecutamos el **Firebase login**
 
-![Firebase screenshot](/assets/post_009_img10.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img10.png)
 
 Que abre el Safari para solicitar permisos
 
-![Firebase screenshot](/assets/post_009_img11.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img11.png)
 
 Luego me dice que el login es exitoso
 
-![Firebase screenshot](/assets/post_009_img12.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img12.png)
 
 Ejecutamos el **Firebase init** para la configuración
 
-![Firebase screenshot](/assets/post_009_img13.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img13.png)
 
 Tenemos que elegir opciones para realizar el Setup del proyecto
 
-![Firebase screenshot](/assets/post_009_img14.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img14.png)
 
 Opciones sobre Hosting Setup:
 
-![Firebase screenshot](/assets/post_009_img15.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img15.png)
 
 Finalmente Eejecutamos el **Firebase deploy**:
 
-![Firebase screenshot](/assets/post_009_img16.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img16.png)
 
 Veamos la consola del Firebase:
 
-![Firebase screenshot](/assets/post_009_img17.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img17.png)
 
 Y la evidencia de la instalación correcta
 
-![Firebase screenshot](/assets/post_009_img18.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img18.png)
 
 {% include google-adsense.html %}<br>
 
@@ -246,7 +246,7 @@ Segun el **CodeLab** (fin del paso 5) tenemos que ejectuar (siempre dentrp del d
 
 El resultado es:
 
-![Firebase screenshot](/assets/post_009_img19.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img19.png)
 
 Levantamos la aplicacion con
 
@@ -254,7 +254,7 @@ Levantamos la aplicacion con
 
 Y luego el server levantado:
 
-![Firebase screenshot](/assets/post_009_img20.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img20.png)
 
 El problema, es que cuando invocamos a:
 
@@ -262,7 +262,7 @@ El problema, es que cuando invocamos a:
 
 no encotramos nada, simplemente algo que nos dice que la aplicacion está ejecutando ok... Pero **_¿Donde está el chat del CodeLab?_**
 
-![Firebase screenshot](/assets/post_009_img21.png)
+![Firebase screenshot](/assets/images/2016_05_01/post_009_img21.png)
 
 .... Ok... por ahora suspendemos el post en este punto, esperando tener mejor suerte con los pasos siguientes cuando retomemos....
 

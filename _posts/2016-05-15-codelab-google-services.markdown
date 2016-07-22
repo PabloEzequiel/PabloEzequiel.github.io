@@ -50,19 +50,19 @@ Searched Location:
 
 Para solucionar esto, debemos generar un archivo de configruación llamado **_google-services.json_**
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img1.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img1.png)
 
 En la siguiente consola <https://developers.google.com/mobile/add>{:target="new"}, elegimos la plataforma Android:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img2.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img2.png)
 
 Le damos el **nombre** y el **package** a nuestra aplicación:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img3.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img3.png)
 
 Le damos siguiente para obtener el **google-services.json** que estamos buscando:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_1.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_1.png)
 
 {% include google-adsense.html %}<br>
 
@@ -131,15 +131,15 @@ Número de serie: 55......
 
 Ahora que ya sabemos cual el nuestra **"Huella Digital" SHA-1** vamos a cargarla para habiliar el paso del registro de **Google sign-in** para nuestra app:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_2.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_2.png)
 
 Paso siguiente **Enable Google sign-in**:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_3.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_3.png)
 
 Y finalemnte podemos descargar el archivo **_google-services.json_** que teníamos que agregar al proyecto del Android Sudio de inicio del post:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_4.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_4.png)
 
 {% include google-adsense.html %}<br>
 
@@ -147,9 +147,9 @@ Y finalemnte podemos descargar el archivo **_google-services.json_** que teníam
 
 Copiamos el archivo **_google-services.json_** dentro de **../googlesamples/google-services/android/signin/app**
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_5.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_5.png)
 
-Y por fin! podemos **compilar**... pero aún **no podemos ejecutar** la aplicación de ejemplo de **google sign-in** para android: ![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_6.png)
+Y por fin! podemos **compilar**... pero aún **no podemos ejecutar** la aplicación de ejemplo de **google sign-in** para android: ![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_6.png)
 
 El error que nos da es **Sign-In quickstart won´t run unless you update Google Play Services**
 
@@ -178,17 +178,17 @@ Links interesantes sobre el tema de **Google Play**:
 
 En nuestro **_paso 05_** vamos a seguir el **_paso 4_** del [turorial que estamos siguiendo](https://developers.google.com/identity/sign-in/android/start){:target="new"}:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img4_sign_7.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img4_sign_7.png)
 
 Tiene de título "Create a web client ID for your server", que no termino de entender que tiene que ver un web client, con un cliente Android... pero bueno, contnuamos con un paso (...mas...) de fe hacia la siguiente indicación:
 
 Para esto, tenemos que ir a la [consola de developers](https://console.developers.google.com/apis/credentials?project=_){:target="new"} y elegir a nuestra aplicación:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img5_sign_1.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img5_sign_1.png)
 
 Seleccionamos nuestra aplicación, y tenemos habilitadas nuestras credenciales:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img5_sign_2.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img5_sign_2.png)
 
 Nota: La parte **IDs de cliente de OAuth 2.0** es la que necesitamos. La parte **Claves de API** la tenemos porque elegí de mas también habilitar la mensajería... pero para este post, ignoramos esa parte.
 
@@ -196,19 +196,19 @@ Bueno, según el **_"paso 4 del tutorial"_** debería hacer: **2\. Click Add cre
 
 En el menú castellano que yo veo en mi consola, son los pasos:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img5_sign_3.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img5_sign_3.png)
 
 Y elijo la parte **web** por recomendiación del tutorial: **3\. Select Web application.**
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img5_sign_4.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img5_sign_4.png)
 
 Después de presionar **CREAR** nos genera la clave de **ID de cliente**
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img6_sign_1.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img6_sign_1.png)
 
 Que copiamos dentro de **string.xml** del Android Studio:
 
-![Google Identity Platform para Android - screenshot](/assets/post_013_img6_sign_2.png)
+![Google Identity Platform para Android - screenshot](/assets/images/2016_05_15/post_013_img6_sign_2.png)
 
 Aunque si volvemos a ejecutar la App me da el mismo error de que tengo que actualzar el Google Play ...
 
@@ -224,26 +224,26 @@ compile 'com.google.android.gms:play-services-auth:9.0.0'
 
 Y de esta forma, finalmente!! vemos a la aplicación funcionando:
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_1.png)
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_1.png)
 
 Veamos algunas pantallas:
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_2.png){: .center-image-2 }
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_2.png){: .center-image-2 }
 
 Iniciamos sesión con la cuenta de Google:
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_3.png){: .center-image-2 }
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_3.png){: .center-image-2 }
 
 Nos pide la password. (Son pantallas de Google, no de nuestra app):
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_4.png){: .center-image-2 }
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_4.png){: .center-image-2 }
 
 Aceptar TYC:
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_5.png){: .center-image-2 }
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_5.png){: .center-image-2 }
 
 Y nos desconectamos
 
-![Google Sign-in demo - screenshot](/assets/post_013_img7_sign_6.png){: .center-image-2 }
+![Google Sign-in demo - screenshot](/assets/images/2016_05_15/post_013_img7_sign_6.png){: .center-image-2 }
 
 Con esto damos por cerrado el post de **Google Sign In** donde intentamos mostrar **_Como funciona la 'Google Identity Platform' en Android_** a través de nuestra experiencia siguiendo el ejemplo del CodeLab de GoogleSamples.

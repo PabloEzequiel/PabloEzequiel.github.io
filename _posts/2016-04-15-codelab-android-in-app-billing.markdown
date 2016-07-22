@@ -37,7 +37,7 @@ $ git clone https://github.com/googlesamples/android-play-billing.git
 
 Probamos levantar la app y nos da una excepcion de claves y keystores:
 
-![importacion paso1 screenshot](/assets/post_010_img1.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img1.png){: .center-image }
 
 {% highlight bash %}
 
@@ -62,7 +62,7 @@ Necesito darme de alta en el Google Wallet según dice la doc:
 
 Me pude dar de alta por la web **Google Wallet**:
 
-![importacion paso1 screenshot](/assets/post_010_img2.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img2.png){: .center-image }
 
 Sobre descargar la app de iOS, no es posible desde el store Argentino...
 
@@ -72,11 +72,11 @@ Damos de alta la App en **Google Play developer Console**
 
 Le vamos a asignar el nombre **DriveBuyPay**
 
-![importacion paso1 screenshot](/assets/post_010_img3.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img3.png){: .center-image }
 
 Agergamos algunos datos
 
-![importacion paso1 screenshot](/assets/post_010_img4.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img4.png){: .center-image }
 
 # Paso 04: Api y Servicios: Obtener clave de licencia para la aplicación
 
@@ -84,7 +84,7 @@ Dentro de Api y servicios, buscamos la **clave de licencia para la aplicación**
 
 Copiamos la pública RSA con codificación Base64 para incluirla en tu archivo binario apk.
 
-![importacion paso1 screenshot](/assets/post_010_img5.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img5.png){: .center-image }
 
 {% include google-adsense.html %}<br>
 
@@ -162,7 +162,7 @@ Aparentemente no es seguro dejar la clave en el codigo, y por esto [hay una disc
 
 Agregamos la clave de la siguiente manera con un metodo privado que revierte la ofuscación de la clave, para que pueda ser asignada a la variable string base64EncodedPublicKey con el valor correcto:
 
-![importacion paso1 screenshot](/assets/post_010_img6.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img6.png){: .center-image }
 
 {% include google-adsense.html %}<br>
 
@@ -170,7 +170,7 @@ Agregamos la clave de la siguiente manera con un metodo privado que revierte la 
 
 Si intentamos ejecutar la aplicación en este punto, vemos que al menos levanta:
 
-![importacion paso1 screenshot](/assets/post_010_img7.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img7.png){: .center-image }
 
 Dice:
 
@@ -190,11 +190,11 @@ Otra alternativa, el emulador **Andy** parece que trae los **Servicios del Googl
 
 Depsués de algunas pruebas, tal como se ve en la imagen a continuación:
 
-![importacion paso1 screenshot](/assets/post_010_img8.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img8.png){: .center-image }
 
 La versión de Andy utilizada es la siguiente:
 
-![importacion paso1 screenshot](/assets/post_010_img9.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_04_15/post_010_img9.png){: .center-image }
 
 Para ejecutar la aplicación en el **Emulador Andy** que tiene los **Servicios del Google Play** instalados, tuve que ingresar mi cuenta de gmail en el Google Play instalado en Andy.
 

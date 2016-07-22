@@ -26,11 +26,11 @@ Clonamos el repositorio
 
 Lo ejecutamos el eclipse, vemos que el build y los test funcionan:
 
-![importacion paso1 screenshot](/assets/post_003_img2_b.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_02_12/post_003_img2_b.png){: .center-image }
 
 Lo ejecutamos
 
-![importacion paso1 screenshot](/assets/post_003_img3_b.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_02_12/post_003_img3_b.png){: .center-image }
 
 Pero da una excepcion:
 
@@ -61,10 +61,10 @@ Clonamos el repositorio
 
 Vemos la ejecucio del cliente de texto:
 
-![importacion paso1 screenshot](/assets/post_003_img4_b.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_02_12/post_003_img4_b.png){: .center-image }
 
 Y de java-fx:
 
-![importacion paso1 screenshot](/assets/post_003_img5_b.png){: .center-image }
+![importacion paso1 screenshot](/assets/images/2016_02_12/post_003_img5_b.png){: .center-image }
 
 [github-chess-001-java]: https://github.com/jhrcek/Chess

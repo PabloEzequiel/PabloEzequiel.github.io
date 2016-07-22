@@ -24,7 +24,7 @@ Author: **elitecoder**
 
 Obseramos que el proyecto funciona correctamente con **Stockfish chess sobre iOS** con **xCode**.
 
-![importacion paso1 screenshot](/assets/post_003_chess-link-001.png)
+![importacion paso1 screenshot](/assets/images/2016_02_12/post_003_chess-link-001.png)
 
 # Dudas
 

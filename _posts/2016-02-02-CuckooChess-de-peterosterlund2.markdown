@@ -30,19 +30,19 @@ Importamos los proyectos de GitHub de peterosterlund2 al eclipse:
 
 /Users/pabloin/Desktop/NoCuestaNada/Mob/GitHub-tmp/chess/peterosterlund2
 
-![CuckooChess paso1 screenshot](/assets/post_002_img1.png)
+![CuckooChess paso1 screenshot](/assets/images/2016_02_02/post_002_img1.png)
 
 Después de ejecutar el build, tomamos a CuckooChess que compilo y lo ejecutamos como una aplicación Java:
 
-![CuckooChess paso2 screenshot](/assets/post_002_img2.png)
+![CuckooChess paso2 screenshot](/assets/images/2016_02_02/post_002_img2.png)
 
 Run As > Java Application
 
-![CuckooChess paso3 screenshot](/assets/post_002_img3.png)
+![CuckooChess paso3 screenshot](/assets/images/2016_02_02/post_002_img3.png)
 
 Y pudimos abrir el AppletGUI y jugar contra CuckooChess aunque nos colgamos un peón en la apertura
 
-![CuckooChess paso4 screenshot](/assets/post_002_img4.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img4.png)
 
 El primer test anduvo ok
 
@@ -52,7 +52,7 @@ El primer test anduvo ok
 
 Veamos que desde el eclipse, el DroidFish tiene problemas de compilación:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img4b.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img4b.png)
 
 Estos errores seguramente estarán asociados al JNI, NDK etc, o sea, a la plataforma nativa.
 
@@ -62,25 +62,25 @@ Vamos a probar con el plugin ADT, porque pareciera que el DroidFish no se hizo c
 
 Instalamos el ADT al eclipse:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img5.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img5.png)
 
 Instalamos el ADT al eclipse (contnuación):
 
-![CuckooChess paso4 screenshot](/assets/post_002_img6.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img6.png)
 
 Finalmente agregué los directorios "gen" manualemnte, y ahora tengo los siguientes errores, relacionados con el Android y el Eclipse:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img7.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img7.png)
 
 El error que me da es: Unable to resolve target 'android-7' until the SDK is loaded. Para lo cual, voy a agregar las API de Android 7 y Androd-16 al proyecto.
 
 En el **Eclipse** voy a **window --> Android SDK manager** y selecciono la sdk api para level 16 y level 7:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img8.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img8.png)
 
 Luego del update de las API de android, se solucionó el problema. Ahora el siguiente problema, esta con la constante de android "R":
 
-![CuckooChess paso4 screenshot](/assets/post_002_img9.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img9.png)
 
 Description Resource Path Location Type R cannot be resolved to a variable ColorTheme.java /DroidFish/src/org/petero/droidfish line 72 Java Problem
 
@@ -90,7 +90,7 @@ No solamente desaparecieron los errores, sino que por fin pude lograr el objetiv
 
 Tal como se ve a continuación, en donde estoy jugando con blancas una apertura de Peón Dama, a los cual las negras (el CuckooChess) responden con la **defensa Tarrash**
 
-![CuckooChess paso4 screenshot](/assets/post_002_img10.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img10.png)
 
 # Prueba 03: ¿Que sigue? Vamos por el DroidFish
 
@@ -98,7 +98,7 @@ Ok, logramos compilar el proyecto CuckooChess en Android. Pero ¿Que pasa si int
 
 Nos da el siguiente error porque falta resolver o compilar algo del código nativo:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img11.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img11.png)
 
 La excepcion es la siguiente: **couldn't find "libnativeutil.so"**
 
@@ -133,7 +133,7 @@ java.lang.UnsatisfiedLinkError: dalvik.system.PathClassLoader [DexPathList[[zip 
 
 Veamos los componentes que faltan compilar, utilizando al ndk:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img12.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img12.png)
 
 Tenemos que verificar si en el **eclipse Mars** que estamos utilizando, con el plugin de **Android Developer Tool (ADT)** tenemos también el NDK instalado
 
@@ -145,7 +145,7 @@ Window -> Preferences -> Android -> NDK
 
 Estaba vacío:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img13.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img13.png)
 
 Y en mi PC, al NDK, gracias al uso del Android Studio, ya lo tenía instalado. Con lo cual agrego esa ruta al eclips:
 
@@ -202,15 +202,15 @@ Y luego de ejecutar el
 
 Vamos a ejecutar al proyecto DroidFish como Android application:
 
-![CuckooChess paso4 screenshot](/assets/post_002_img14a.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img14a.png)
 
 Se ejecuto exitosamente, vemos los proyectos del eclipse de fondo, y el emulador con el DroidFish de Frente
 
-![CuckooChess paso4 screenshot](/assets/post_002_img14.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img14.png)
 
 Y hacemos algunas jugadas con el droidfish corriendo en el emulador
 
-![CuckooChess paso4 screenshot](/assets/post_002_img15.png)
+![CuckooChess paso4 screenshot](/assets/images/2016_02_02/post_002_img15.png)
 
 En este punto podemos dar por cerrado el post, con el objetivo cumplido de compilar los proyectos de GitHub de DroidFish y CuckooChess, resolviendo la compilación de código nativo JNI con NDK en el medio.
 

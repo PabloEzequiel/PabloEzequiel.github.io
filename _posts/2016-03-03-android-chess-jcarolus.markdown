@@ -27,7 +27,7 @@ Este proyecto lo pude compilar OK, Tiene tambien preubas de Chess sobre Android 
 
 Lo pude compilar y jugar una partida:
 
-![importacion paso1 screenshot](/assets/post_006_img1.png)
+![importacion paso1 screenshot](/assets/images/2016_04_10/post_006_img1.png)
 
 ¿Que tiene el proyecto de interesante o para rescatar?
 

@@ -30,7 +30,7 @@ $ git clone https://github.com/firebase/friendlychat
 
 Obervemos que cuando clonamos el proyecto, nos baja todas las versiones de clientes de **Firebase**: O sea, versiones **WEB**, **iOS objective c**, **iOS swift**, **Android**:
 
-![Firebase screenshot](/assets/post_012_img1.png)
+![Firebase screenshot](/assets/images/2016_05_05/post_012_img1.png)
 
 En este post, utilizamos los de objective-c: **objc** y **objc-starter**
 
@@ -48,7 +48,7 @@ Con lo cual solo queda ejecutar en nuestro di **./googlesamples/firebase/friendl
 
 Veamos el resultado de la instalación:
 
-![Firebase en iOS con Objecti-c](/assets/post_012_img2.png)
+![Firebase en iOS con Objecti-c](/assets/images/2016_05_05/post_012_img2.png)
 
 A continuación, vamos a abrir el proyecto Xcode objective-c **FriendlyChatObjC.xcworkspace** y compilarlo a ver que pasa.
 
@@ -61,7 +61,7 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 Vemos la pantalla de error:
 
-![Firebase en iOS con Objective-c](/assets/post_012_img3.png)
+![Firebase en iOS con Objective-c](/assets/images/2016_05_05/post_012_img3.png)
 
 **Solución:**
 
@@ -72,10 +72,10 @@ Simplemente, el error es por un poco de falta de experiencias de mi parte con lo
 
 Veamos que cuando efectivamente, el proyecto se abre OK:
 
-![Firebase en iOS con Objective-c](/assets/post_012_img4.png)
+![Firebase en iOS con Objective-c](/assets/images/2016_05_05/post_012_img4.png)
 
 Y podemos ver la aplicación funcionando:
 
-![Firebase en iOS con Objective-c](/assets/post_012_img5.png)
+![Firebase en iOS con Objective-c](/assets/images/2016_05_05/post_012_img5.png)
 
 .... por ahora suspendemos el post aqui... Y seguimos con el tema en la versión de iOS

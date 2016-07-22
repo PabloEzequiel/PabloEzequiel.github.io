@@ -28,31 +28,31 @@ Ejecutamos el código:
 
 Seguimos los pasos de **Google VR SDK para iOS** y en este primer paso vamos a ejecutar el proyecto **TreasureHunt**
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_01.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_01.png){: .center-image }
 
 Bajamos el proyecto de GitHub
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_02.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_02.png){: .center-image }
 
 Como es un proyecto con Cocoa y CocoaPod, hay que ejecutar pod update:
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_03.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_03.png){: .center-image }
 
 Y luego elegimos xcworkspace
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_04.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_04.png){: .center-image }
 
 Abrimos el proyecto y ejecuramos Run
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_05.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_05.png){: .center-image }
 
 Ejecutamos la aplicación que indica que se debe rotar el dispositivo:
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_06.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_06.png){: .center-image }
 
 Al girar el emulador, aparece la vista bifocal, tal como se necesita para verlo en el Google Cardboard
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_07.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_07.png){: .center-image }
 
 {% include google-adsense.html %}<br>
 
@@ -63,24 +63,24 @@ Este es otro de los proyectos de **Google VR SDK para iOS** y en este primer pas
 
 Como es un proyecto con **Cocoa** y **CocoaPod**, hay que ejecutar **pod update**:
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_20.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_20.png){: .center-image }
 
 Y luego elegimos **xcworkspace**
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_21.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_21.png){: .center-image }
 
 Abrimos el proyecto:
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_22.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_22.png){: .center-image }
 
 La aplicación tiene el icono para le Cardboard
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_23.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_23.png){: .center-image }
 
 Ejecutamos la aplicación que indica que se debe rotar el dispositivo:
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_24.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_24.png){: .center-image }
 
 Al girar el emulador, aparece la vista bifocal, tal como se necesita para verlo en el **Google Cardboard**
 
-![Google VR SDK para iOS - screenshot](/assets/post_008_iosVR_img_25.png){: .center-image }
+![Google VR SDK para iOS - screenshot](/assets/images/2016_04_24/images/2016_04_20/post_008_iosVR_img_25.png){: .center-image }
