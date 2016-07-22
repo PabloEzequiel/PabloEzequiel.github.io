@@ -31,7 +31,9 @@ Directorio de trabajo, en nuestra PC utilizaremos la carpeta:
 
 Ejecutamos el código:
 
-{% highlight bash %} $ git clone https://github.com/googlecodelabs/vr_view_app_101.git {% endhighlight %}
+{% highlight bash %}
+ $ git clone https://github.com/googlecodelabs/vr_view_app_101.git
+{% endhighlight %}
 
 Resultado:
 
