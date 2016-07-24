@@ -29,15 +29,15 @@ Ejecutamos el código:
 
 Lo primero que me llamó la atención es que debemos aceptar los TyC para descargar el SDK de VR. No es que esté mal, por su puesto, solamente es que no lo esperaba:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_01.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_01.png){: .center-image }
 
 Clonamos el repositorio Git:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_02.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_02.png){: .center-image }
 
 Y vemos nuestro entorno de trabajo dentro del **excelente** Atom Editor:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_03.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_03.png){: .center-image }
 
 {% include google-adsense.html %}<br>
 
@@ -55,11 +55,11 @@ Cone el **Android Studio** abrimos los proyectos del directorio **gvr-android-sd
 
 Tengamos cuidado de no confundir al directorio, son varios proyectos. Veamos la imagen:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_04.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_04.png){: .center-image }
 
 Veamos los proyectos importados, también ejecuté en **Sync gradle**:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_05.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_05.png){: .center-image }
 
 {% include google-adsense.html %}<br>
 
@@ -67,19 +67,19 @@ Veamos los proyectos importados, también ejecuté en **Sync gradle**:
 
 Elegimos el proyecto **sdk-treasurehunt**
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_06.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_06.png){: .center-image }
 
 Y el destino de ejecución/deployment será sobre el dispositivo fisico (no sobre un emulador):
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_07.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_07.png){: .center-image }
 
 Vemos como resultado de la ejecución, un Cubo de Colores que se desplaza por el espacio. Tal como se ve, es una aplicación para **Google Cardboard**:
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_08.jpg){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_08.jpg){: .center-image }
 
 # Paso 04: Ejecutamos la aplicación SimplePanoWidget
 
-![Google VR SDK - screenshot](/assets/images/2016_04_22/images/2016_04_20/post_008_SdkVr_img_09.png){: .center-image }
+![Google VR SDK - screenshot](/assets/images/2016_04_22/post_008_SdkVr_img_09.png){: .center-image }
 
 En este punto vamos a dejar cerrado por ahora el post, con el objetivo cumplido de ver el funcionamiento de la app para Google Cardboard.
 

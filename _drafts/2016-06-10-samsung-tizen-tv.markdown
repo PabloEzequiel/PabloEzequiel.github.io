@@ -31,6 +31,8 @@ El proyecto descargado, tal como se ve, se descargan tres proyectos, en objetive
 
 ![Android TV - screenshot](/assets/images/mes06/post_015_android_tv_001.png){: .center-image }
 
+Igualmente, observamos que no hay ningún tutorial que acompala a los proyectos...
+
 # Version xCode
 
 Lo abrimos con el xCode....
@@ -43,6 +45,24 @@ Pero me da el error: Y no se como recompilar:
 Module file was created by an older version of the compiler;
 rebuild 'SmartView' and try again:
  samsung-tizen/SmartViewSDKHelloWorld/HelloWorld_iOS/HelloWorld/SmartView.framework/Modules/SmartView.swiftmodule/x86_64.swiftmodule
+
+Por ahora cerramos aca la versión xCode porque no se como recompilar ese compoennte
+
+# Version Android
+
+... tengo que abrirlo a ver que pasa ... (Igual parece que es recomendable hacerlo por el SDK)
+
+no me compila con el Adnroid Studo ...
+  bitacora : images >> "android"
+
+  por ahora cierro aca ... porque el proyecto no me anda con Andorid y sogo con Tizen
+
+# Version Web
+
+... no me interesa ..
+
+# Version algo mas ??
+
 
 
 
